@@ -1,0 +1,4 @@
+pipeline_a,pipeline_b,a_correct_b_wrong,a_wrong_b_correct,discordant,p_value_exact
+cascade_xgb_prob_tabnet,direct_xgb,93,154,247,0.00012527002030704237
+cascade_xgb_prob_tabnet,cascade_xgb_binary_tabnet,98,98,196,1.0
+cascade_xgb_prob_tabnet,oracle_true_symptom_tabnet,4,845,849,1.1507091582204875e-245

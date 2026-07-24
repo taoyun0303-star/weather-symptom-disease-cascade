@@ -1,0 +1,56 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Large/intermediate generated outputs
+artifacts/publication/
+data/processed/
+
+# Canonical external dataset: obtain with scripts/fetch_dataset.py.
+/data/raw/*.csv
+
+# Public-release directories. Every other top-level directory is local-only.
+/*/
+!/.github/
+!/.github/**
+!/configs/
+!/configs/**
+!/data/
+!/figures/
+!/figures/**
+!/paper/
+!/paper/**
+!/results/
+!/results/**
+!/scripts/
+!/scripts/**
+!/src/
+!/src/**
+!/tests/
+!/tests/**
+
+# Generated Python files must remain ignored after the release-directory rules.
+**/__pycache__/
+**/*.py[cod]
+
+# Local legacy documents at the repository root.
+/*.pdf
+/*.png
+/*.tex
+/*.docx
+/*.zip
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Local review renders
+tmp/

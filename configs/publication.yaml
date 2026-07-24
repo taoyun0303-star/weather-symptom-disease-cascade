@@ -1,0 +1,45 @@
+project:
+  name: weather-symptom-disease-cascade
+  protocol_version: "2.0"
+  random_seed: 2026
+
+data:
+  raw_csv: data/raw/Weather-related disease prediction.csv
+  expected_md5: 4aa51b2bb76b45b2000ce71517a0fd1e
+  remove_exact_duplicates: true
+  humidity_unit: fraction
+  primary_grouping: weather_signature
+
+split:
+  locked_test_fraction: 0.20
+  development_folds: 5
+  bootstrap_replicates: 2000
+  bootstrap_seed: 2407
+
+models:
+  stage1: [lr, mlp, xgb]
+  direct: [dummy, lr, rf, mlp, xgb]
+  stage2_secondary: [lr, rf, mlp, xgb]
+  primary_stage2: tabnet
+  n_jobs: 1
+  tabnet:
+    max_epochs: 60
+    patience: 8
+    batch_size: 512
+    virtual_batch_size: 128
+    n_d: 16
+    n_a: 16
+    n_steps: 3
+
+experiments:
+  include_binary_xgb_ablation: true
+  include_oracle_tabnet: true
+  include_engineered_weather_ablation: true
+  include_group_split_sensitivity: true
+  include_context_extensions: true
+
+outputs:
+  processed_dir: data/processed
+  artifact_dir: artifacts/publication
+  result_dir: results/publication
+  figure_dir: figures/publication

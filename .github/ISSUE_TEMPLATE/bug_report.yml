@@ -1,0 +1,29 @@
+name: Reproducibility defect
+description: Report a failure to install, run, or reproduce an artifact.
+title: "[Reproducibility]: "
+labels: ["reproducibility"]
+body:
+  - type: markdown
+    attributes:
+      value: "Please do not include private health data, credentials, or participant information."
+  - type: textarea
+    id: command
+    attributes:
+      label: Command and expected behavior
+      description: Include the exact safe command and the expected result.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Observed output
+      description: Include the traceback or a concise error excerpt.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "OS, Python version, dependency installation method"
+    validations:
+      required: true

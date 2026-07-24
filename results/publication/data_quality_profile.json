@@ -1,0 +1,29 @@
+{
+  "source_rows": 5200,
+  "analysis_rows": 4981,
+  "source_columns": 51,
+  "analysis_columns": 55,
+  "exact_duplicates_removed": 219,
+  "md5": "4aa51b2bb76b45b2000ce71517a0fd1e",
+  "humidity_min": 0.370833333,
+  "humidity_max": 1.0,
+  "class_counts": {
+    "Heart Attack": 968,
+    "Migraine": 897,
+    "Influenza": 632,
+    "Heat Stroke": 323,
+    "Malaria": 319,
+    "Stroke": 312,
+    "Eczema": 311,
+    "Common Cold": 309,
+    "Dengue": 308,
+    "Sinusitis": 301,
+    "Arthritis": 301
+  },
+  "development_rows": 3984,
+  "locked_test_rows": 997,
+  "weather_groups_total": 3588,
+  "symptom_signatures_total": 578,
+  "weather_group_overlap_development_test": 0,
+  "symptom_signature_overlap_test_rows": 960
+}

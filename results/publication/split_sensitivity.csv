@@ -1,0 +1,3 @@
+split,development_rows,test_rows,weather_signatures_shared,test_rows_with_seen_weather_signature,test_rows_with_seen_symptom_signature
+weather_signature_group_split,3984,997,0,0,960
+naive_stratified_row_split,3984,997,280,377,956

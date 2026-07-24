@@ -1,0 +1,2300 @@
+pipeline,true_class,predicted_class,count
+direct_dummy,Arthritis,Arthritis,0
+direct_dummy,Common Cold,Arthritis,0
+direct_dummy,Dengue,Arthritis,0
+direct_dummy,Eczema,Arthritis,0
+direct_dummy,Heart Attack,Arthritis,0
+direct_dummy,Heat Stroke,Arthritis,0
+direct_dummy,Influenza,Arthritis,0
+direct_dummy,Malaria,Arthritis,0
+direct_dummy,Migraine,Arthritis,0
+direct_dummy,Sinusitis,Arthritis,0
+direct_dummy,Stroke,Arthritis,0
+direct_dummy,Arthritis,Common Cold,0
+direct_dummy,Common Cold,Common Cold,0
+direct_dummy,Dengue,Common Cold,0
+direct_dummy,Eczema,Common Cold,0
+direct_dummy,Heart Attack,Common Cold,0
+direct_dummy,Heat Stroke,Common Cold,0
+direct_dummy,Influenza,Common Cold,0
+direct_dummy,Malaria,Common Cold,0
+direct_dummy,Migraine,Common Cold,0
+direct_dummy,Sinusitis,Common Cold,0
+direct_dummy,Stroke,Common Cold,0
+direct_dummy,Arthritis,Dengue,0
+direct_dummy,Common Cold,Dengue,0
+direct_dummy,Dengue,Dengue,0
+direct_dummy,Eczema,Dengue,0
+direct_dummy,Heart Attack,Dengue,0
+direct_dummy,Heat Stroke,Dengue,0
+direct_dummy,Influenza,Dengue,0
+direct_dummy,Malaria,Dengue,0
+direct_dummy,Migraine,Dengue,0
+direct_dummy,Sinusitis,Dengue,0
+direct_dummy,Stroke,Dengue,0
+direct_dummy,Arthritis,Eczema,0
+direct_dummy,Common Cold,Eczema,0
+direct_dummy,Dengue,Eczema,0
+direct_dummy,Eczema,Eczema,0
+direct_dummy,Heart Attack,Eczema,0
+direct_dummy,Heat Stroke,Eczema,0
+direct_dummy,Influenza,Eczema,0
+direct_dummy,Malaria,Eczema,0
+direct_dummy,Migraine,Eczema,0
+direct_dummy,Sinusitis,Eczema,0
+direct_dummy,Stroke,Eczema,0
+direct_dummy,Arthritis,Heart Attack,61
+direct_dummy,Common Cold,Heart Attack,62
+direct_dummy,Dengue,Heart Attack,62
+direct_dummy,Eczema,Heart Attack,63
+direct_dummy,Heart Attack,Heart Attack,193
+direct_dummy,Heat Stroke,Heart Attack,65
+direct_dummy,Influenza,Heart Attack,126
+direct_dummy,Malaria,Heart Attack,64
+direct_dummy,Migraine,Heart Attack,179
+direct_dummy,Sinusitis,Heart Attack,60
+direct_dummy,Stroke,Heart Attack,62
+direct_dummy,Arthritis,Heat Stroke,0
+direct_dummy,Common Cold,Heat Stroke,0
+direct_dummy,Dengue,Heat Stroke,0
+direct_dummy,Eczema,Heat Stroke,0
+direct_dummy,Heart Attack,Heat Stroke,0
+direct_dummy,Heat Stroke,Heat Stroke,0
+direct_dummy,Influenza,Heat Stroke,0
+direct_dummy,Malaria,Heat Stroke,0
+direct_dummy,Migraine,Heat Stroke,0
+direct_dummy,Sinusitis,Heat Stroke,0
+direct_dummy,Stroke,Heat Stroke,0
+direct_dummy,Arthritis,Influenza,0
+direct_dummy,Common Cold,Influenza,0
+direct_dummy,Dengue,Influenza,0
+direct_dummy,Eczema,Influenza,0
+direct_dummy,Heart Attack,Influenza,0
+direct_dummy,Heat Stroke,Influenza,0
+direct_dummy,Influenza,Influenza,0
+direct_dummy,Malaria,Influenza,0
+direct_dummy,Migraine,Influenza,0
+direct_dummy,Sinusitis,Influenza,0
+direct_dummy,Stroke,Influenza,0
+direct_dummy,Arthritis,Malaria,0
+direct_dummy,Common Cold,Malaria,0
+direct_dummy,Dengue,Malaria,0
+direct_dummy,Eczema,Malaria,0
+direct_dummy,Heart Attack,Malaria,0
+direct_dummy,Heat Stroke,Malaria,0
+direct_dummy,Influenza,Malaria,0
+direct_dummy,Malaria,Malaria,0
+direct_dummy,Migraine,Malaria,0
+direct_dummy,Sinusitis,Malaria,0
+direct_dummy,Stroke,Malaria,0
+direct_dummy,Arthritis,Migraine,0
+direct_dummy,Common Cold,Migraine,0
+direct_dummy,Dengue,Migraine,0
+direct_dummy,Eczema,Migraine,0
+direct_dummy,Heart Attack,Migraine,0
+direct_dummy,Heat Stroke,Migraine,0
+direct_dummy,Influenza,Migraine,0
+direct_dummy,Malaria,Migraine,0
+direct_dummy,Migraine,Migraine,0
+direct_dummy,Sinusitis,Migraine,0
+direct_dummy,Stroke,Migraine,0
+direct_dummy,Arthritis,Sinusitis,0
+direct_dummy,Common Cold,Sinusitis,0
+direct_dummy,Dengue,Sinusitis,0
+direct_dummy,Eczema,Sinusitis,0
+direct_dummy,Heart Attack,Sinusitis,0
+direct_dummy,Heat Stroke,Sinusitis,0
+direct_dummy,Influenza,Sinusitis,0
+direct_dummy,Malaria,Sinusitis,0
+direct_dummy,Migraine,Sinusitis,0
+direct_dummy,Sinusitis,Sinusitis,0
+direct_dummy,Stroke,Sinusitis,0
+direct_dummy,Arthritis,Stroke,0
+direct_dummy,Common Cold,Stroke,0
+direct_dummy,Dengue,Stroke,0
+direct_dummy,Eczema,Stroke,0
+direct_dummy,Heart Attack,Stroke,0
+direct_dummy,Heat Stroke,Stroke,0
+direct_dummy,Influenza,Stroke,0
+direct_dummy,Malaria,Stroke,0
+direct_dummy,Migraine,Stroke,0
+direct_dummy,Sinusitis,Stroke,0
+direct_dummy,Stroke,Stroke,0
+direct_lr,Arthritis,Arthritis,2
+direct_lr,Common Cold,Arthritis,2
+direct_lr,Dengue,Arthritis,4
+direct_lr,Eczema,Arthritis,4
+direct_lr,Heart Attack,Arthritis,5
+direct_lr,Heat Stroke,Arthritis,3
+direct_lr,Influenza,Arthritis,2
+direct_lr,Malaria,Arthritis,3
+direct_lr,Migraine,Arthritis,3
+direct_lr,Sinusitis,Arthritis,2
+direct_lr,Stroke,Arthritis,1
+direct_lr,Arthritis,Common Cold,8
+direct_lr,Common Cold,Common Cold,11
+direct_lr,Dengue,Common Cold,8
+direct_lr,Eczema,Common Cold,14
+direct_lr,Heart Attack,Common Cold,14
+direct_lr,Heat Stroke,Common Cold,4
+direct_lr,Influenza,Common Cold,10
+direct_lr,Malaria,Common Cold,7
+direct_lr,Migraine,Common Cold,16
+direct_lr,Sinusitis,Common Cold,13
+direct_lr,Stroke,Common Cold,4
+direct_lr,Arthritis,Dengue,12
+direct_lr,Common Cold,Dengue,14
+direct_lr,Dengue,Dengue,9
+direct_lr,Eczema,Dengue,15
+direct_lr,Heart Attack,Dengue,10
+direct_lr,Heat Stroke,Dengue,13
+direct_lr,Influenza,Dengue,20
+direct_lr,Malaria,Dengue,10
+direct_lr,Migraine,Dengue,15
+direct_lr,Sinusitis,Dengue,13
+direct_lr,Stroke,Dengue,15
+direct_lr,Arthritis,Eczema,1
+direct_lr,Common Cold,Eczema,5
+direct_lr,Dengue,Eczema,3
+direct_lr,Eczema,Eczema,1
+direct_lr,Heart Attack,Eczema,2
+direct_lr,Heat Stroke,Eczema,5
+direct_lr,Influenza,Eczema,1
+direct_lr,Malaria,Eczema,3
+direct_lr,Migraine,Eczema,2
+direct_lr,Sinusitis,Eczema,2
+direct_lr,Stroke,Eczema,5
+direct_lr,Arthritis,Heart Attack,13
+direct_lr,Common Cold,Heart Attack,9
+direct_lr,Dengue,Heart Attack,11
+direct_lr,Eczema,Heart Attack,10
+direct_lr,Heart Attack,Heart Attack,79
+direct_lr,Heat Stroke,Heart Attack,18
+direct_lr,Influenza,Heart Attack,26
+direct_lr,Malaria,Heart Attack,9
+direct_lr,Migraine,Heart Attack,75
+direct_lr,Sinusitis,Heart Attack,6
+direct_lr,Stroke,Heart Attack,17
+direct_lr,Arthritis,Heat Stroke,7
+direct_lr,Common Cold,Heat Stroke,4
+direct_lr,Dengue,Heat Stroke,3
+direct_lr,Eczema,Heat Stroke,6
+direct_lr,Heart Attack,Heat Stroke,26
+direct_lr,Heat Stroke,Heat Stroke,5
+direct_lr,Influenza,Heat Stroke,18
+direct_lr,Malaria,Heat Stroke,6
+direct_lr,Migraine,Heat Stroke,17
+direct_lr,Sinusitis,Heat Stroke,3
+direct_lr,Stroke,Heat Stroke,1
+direct_lr,Arthritis,Influenza,11
+direct_lr,Common Cold,Influenza,7
+direct_lr,Dengue,Influenza,11
+direct_lr,Eczema,Influenza,6
+direct_lr,Heart Attack,Influenza,41
+direct_lr,Heat Stroke,Influenza,12
+direct_lr,Influenza,Influenza,41
+direct_lr,Malaria,Influenza,16
+direct_lr,Migraine,Influenza,33
+direct_lr,Sinusitis,Influenza,7
+direct_lr,Stroke,Influenza,10
+direct_lr,Arthritis,Malaria,5
+direct_lr,Common Cold,Malaria,7
+direct_lr,Dengue,Malaria,6
+direct_lr,Eczema,Malaria,3
+direct_lr,Heart Attack,Malaria,8
+direct_lr,Heat Stroke,Malaria,3
+direct_lr,Influenza,Malaria,4
+direct_lr,Malaria,Malaria,6
+direct_lr,Migraine,Malaria,4
+direct_lr,Sinusitis,Malaria,7
+direct_lr,Stroke,Malaria,5
+direct_lr,Arthritis,Migraine,1
+direct_lr,Common Cold,Migraine,0
+direct_lr,Dengue,Migraine,3
+direct_lr,Eczema,Migraine,0
+direct_lr,Heart Attack,Migraine,7
+direct_lr,Heat Stroke,Migraine,1
+direct_lr,Influenza,Migraine,1
+direct_lr,Malaria,Migraine,1
+direct_lr,Migraine,Migraine,3
+direct_lr,Sinusitis,Migraine,0
+direct_lr,Stroke,Migraine,1
+direct_lr,Arthritis,Sinusitis,1
+direct_lr,Common Cold,Sinusitis,1
+direct_lr,Dengue,Sinusitis,1
+direct_lr,Eczema,Sinusitis,1
+direct_lr,Heart Attack,Sinusitis,0
+direct_lr,Heat Stroke,Sinusitis,0
+direct_lr,Influenza,Sinusitis,1
+direct_lr,Malaria,Sinusitis,1
+direct_lr,Migraine,Sinusitis,6
+direct_lr,Sinusitis,Sinusitis,0
+direct_lr,Stroke,Sinusitis,1
+direct_lr,Arthritis,Stroke,0
+direct_lr,Common Cold,Stroke,2
+direct_lr,Dengue,Stroke,3
+direct_lr,Eczema,Stroke,3
+direct_lr,Heart Attack,Stroke,1
+direct_lr,Heat Stroke,Stroke,1
+direct_lr,Influenza,Stroke,2
+direct_lr,Malaria,Stroke,2
+direct_lr,Migraine,Stroke,5
+direct_lr,Sinusitis,Stroke,7
+direct_lr,Stroke,Stroke,2
+direct_rf,Arthritis,Arthritis,4
+direct_rf,Common Cold,Arthritis,7
+direct_rf,Dengue,Arthritis,0
+direct_rf,Eczema,Arthritis,4
+direct_rf,Heart Attack,Arthritis,4
+direct_rf,Heat Stroke,Arthritis,2
+direct_rf,Influenza,Arthritis,7
+direct_rf,Malaria,Arthritis,3
+direct_rf,Migraine,Arthritis,12
+direct_rf,Sinusitis,Arthritis,6
+direct_rf,Stroke,Arthritis,6
+direct_rf,Arthritis,Common Cold,7
+direct_rf,Common Cold,Common Cold,3
+direct_rf,Dengue,Common Cold,7
+direct_rf,Eczema,Common Cold,4
+direct_rf,Heart Attack,Common Cold,12
+direct_rf,Heat Stroke,Common Cold,5
+direct_rf,Influenza,Common Cold,5
+direct_rf,Malaria,Common Cold,4
+direct_rf,Migraine,Common Cold,9
+direct_rf,Sinusitis,Common Cold,5
+direct_rf,Stroke,Common Cold,5
+direct_rf,Arthritis,Dengue,6
+direct_rf,Common Cold,Dengue,6
+direct_rf,Dengue,Dengue,5
+direct_rf,Eczema,Dengue,6
+direct_rf,Heart Attack,Dengue,13
+direct_rf,Heat Stroke,Dengue,6
+direct_rf,Influenza,Dengue,7
+direct_rf,Malaria,Dengue,7
+direct_rf,Migraine,Dengue,10
+direct_rf,Sinusitis,Dengue,5
+direct_rf,Stroke,Dengue,6
+direct_rf,Arthritis,Eczema,4
+direct_rf,Common Cold,Eczema,8
+direct_rf,Dengue,Eczema,6
+direct_rf,Eczema,Eczema,7
+direct_rf,Heart Attack,Eczema,7
+direct_rf,Heat Stroke,Eczema,7
+direct_rf,Influenza,Eczema,11
+direct_rf,Malaria,Eczema,8
+direct_rf,Migraine,Eczema,15
+direct_rf,Sinusitis,Eczema,6
+direct_rf,Stroke,Eczema,8
+direct_rf,Arthritis,Heart Attack,13
+direct_rf,Common Cold,Heart Attack,5
+direct_rf,Dengue,Heart Attack,8
+direct_rf,Eczema,Heart Attack,8
+direct_rf,Heart Attack,Heart Attack,69
+direct_rf,Heat Stroke,Heart Attack,10
+direct_rf,Influenza,Heart Attack,31
+direct_rf,Malaria,Heart Attack,6
+direct_rf,Migraine,Heart Attack,44
+direct_rf,Sinusitis,Heart Attack,4
+direct_rf,Stroke,Heart Attack,6
+direct_rf,Arthritis,Heat Stroke,3
+direct_rf,Common Cold,Heat Stroke,3
+direct_rf,Dengue,Heat Stroke,1
+direct_rf,Eczema,Heat Stroke,2
+direct_rf,Heart Attack,Heat Stroke,15
+direct_rf,Heat Stroke,Heat Stroke,4
+direct_rf,Influenza,Heat Stroke,20
+direct_rf,Malaria,Heat Stroke,2
+direct_rf,Migraine,Heat Stroke,7
+direct_rf,Sinusitis,Heat Stroke,8
+direct_rf,Stroke,Heat Stroke,5
+direct_rf,Arthritis,Influenza,2
+direct_rf,Common Cold,Influenza,6
+direct_rf,Dengue,Influenza,3
+direct_rf,Eczema,Influenza,2
+direct_rf,Heart Attack,Influenza,13
+direct_rf,Heat Stroke,Influenza,8
+direct_rf,Influenza,Influenza,15
+direct_rf,Malaria,Influenza,7
+direct_rf,Migraine,Influenza,9
+direct_rf,Sinusitis,Influenza,2
+direct_rf,Stroke,Influenza,4
+direct_rf,Arthritis,Malaria,4
+direct_rf,Common Cold,Malaria,8
+direct_rf,Dengue,Malaria,7
+direct_rf,Eczema,Malaria,6
+direct_rf,Heart Attack,Malaria,4
+direct_rf,Heat Stroke,Malaria,8
+direct_rf,Influenza,Malaria,4
+direct_rf,Malaria,Malaria,6
+direct_rf,Migraine,Malaria,4
+direct_rf,Sinusitis,Malaria,6
+direct_rf,Stroke,Malaria,7
+direct_rf,Arthritis,Migraine,6
+direct_rf,Common Cold,Migraine,6
+direct_rf,Dengue,Migraine,8
+direct_rf,Eczema,Migraine,6
+direct_rf,Heart Attack,Migraine,33
+direct_rf,Heat Stroke,Migraine,7
+direct_rf,Influenza,Migraine,16
+direct_rf,Malaria,Migraine,6
+direct_rf,Migraine,Migraine,43
+direct_rf,Sinusitis,Migraine,6
+direct_rf,Stroke,Migraine,9
+direct_rf,Arthritis,Sinusitis,7
+direct_rf,Common Cold,Sinusitis,5
+direct_rf,Dengue,Sinusitis,5
+direct_rf,Eczema,Sinusitis,9
+direct_rf,Heart Attack,Sinusitis,12
+direct_rf,Heat Stroke,Sinusitis,2
+direct_rf,Influenza,Sinusitis,2
+direct_rf,Malaria,Sinusitis,8
+direct_rf,Migraine,Sinusitis,7
+direct_rf,Sinusitis,Sinusitis,4
+direct_rf,Stroke,Sinusitis,1
+direct_rf,Arthritis,Stroke,5
+direct_rf,Common Cold,Stroke,5
+direct_rf,Dengue,Stroke,12
+direct_rf,Eczema,Stroke,9
+direct_rf,Heart Attack,Stroke,11
+direct_rf,Heat Stroke,Stroke,6
+direct_rf,Influenza,Stroke,8
+direct_rf,Malaria,Stroke,7
+direct_rf,Migraine,Stroke,19
+direct_rf,Sinusitis,Stroke,8
+direct_rf,Stroke,Stroke,5
+direct_mlp,Arthritis,Arthritis,2
+direct_mlp,Common Cold,Arthritis,1
+direct_mlp,Dengue,Arthritis,4
+direct_mlp,Eczema,Arthritis,3
+direct_mlp,Heart Attack,Arthritis,3
+direct_mlp,Heat Stroke,Arthritis,3
+direct_mlp,Influenza,Arthritis,0
+direct_mlp,Malaria,Arthritis,2
+direct_mlp,Migraine,Arthritis,3
+direct_mlp,Sinusitis,Arthritis,4
+direct_mlp,Stroke,Arthritis,0
+direct_mlp,Arthritis,Common Cold,1
+direct_mlp,Common Cold,Common Cold,2
+direct_mlp,Dengue,Common Cold,5
+direct_mlp,Eczema,Common Cold,4
+direct_mlp,Heart Attack,Common Cold,5
+direct_mlp,Heat Stroke,Common Cold,1
+direct_mlp,Influenza,Common Cold,2
+direct_mlp,Malaria,Common Cold,4
+direct_mlp,Migraine,Common Cold,4
+direct_mlp,Sinusitis,Common Cold,2
+direct_mlp,Stroke,Common Cold,1
+direct_mlp,Arthritis,Dengue,3
+direct_mlp,Common Cold,Dengue,3
+direct_mlp,Dengue,Dengue,3
+direct_mlp,Eczema,Dengue,3
+direct_mlp,Heart Attack,Dengue,3
+direct_mlp,Heat Stroke,Dengue,1
+direct_mlp,Influenza,Dengue,5
+direct_mlp,Malaria,Dengue,2
+direct_mlp,Migraine,Dengue,2
+direct_mlp,Sinusitis,Dengue,0
+direct_mlp,Stroke,Dengue,4
+direct_mlp,Arthritis,Eczema,2
+direct_mlp,Common Cold,Eczema,2
+direct_mlp,Dengue,Eczema,1
+direct_mlp,Eczema,Eczema,3
+direct_mlp,Heart Attack,Eczema,2
+direct_mlp,Heat Stroke,Eczema,6
+direct_mlp,Influenza,Eczema,1
+direct_mlp,Malaria,Eczema,3
+direct_mlp,Migraine,Eczema,4
+direct_mlp,Sinusitis,Eczema,7
+direct_mlp,Stroke,Eczema,4
+direct_mlp,Arthritis,Heart Attack,29
+direct_mlp,Common Cold,Heart Attack,18
+direct_mlp,Dengue,Heart Attack,23
+direct_mlp,Eczema,Heart Attack,19
+direct_mlp,Heart Attack,Heart Attack,124
+direct_mlp,Heat Stroke,Heart Attack,25
+direct_mlp,Influenza,Heart Attack,63
+direct_mlp,Malaria,Heart Attack,26
+direct_mlp,Migraine,Heart Attack,90
+direct_mlp,Sinusitis,Heart Attack,18
+direct_mlp,Stroke,Heart Attack,23
+direct_mlp,Arthritis,Heat Stroke,2
+direct_mlp,Common Cold,Heat Stroke,1
+direct_mlp,Dengue,Heat Stroke,0
+direct_mlp,Eczema,Heat Stroke,2
+direct_mlp,Heart Attack,Heat Stroke,2
+direct_mlp,Heat Stroke,Heat Stroke,0
+direct_mlp,Influenza,Heat Stroke,0
+direct_mlp,Malaria,Heat Stroke,3
+direct_mlp,Migraine,Heat Stroke,1
+direct_mlp,Sinusitis,Heat Stroke,1
+direct_mlp,Stroke,Heat Stroke,0
+direct_mlp,Arthritis,Influenza,3
+direct_mlp,Common Cold,Influenza,1
+direct_mlp,Dengue,Influenza,2
+direct_mlp,Eczema,Influenza,2
+direct_mlp,Heart Attack,Influenza,7
+direct_mlp,Heat Stroke,Influenza,2
+direct_mlp,Influenza,Influenza,9
+direct_mlp,Malaria,Influenza,4
+direct_mlp,Migraine,Influenza,15
+direct_mlp,Sinusitis,Influenza,4
+direct_mlp,Stroke,Influenza,1
+direct_mlp,Arthritis,Malaria,1
+direct_mlp,Common Cold,Malaria,5
+direct_mlp,Dengue,Malaria,1
+direct_mlp,Eczema,Malaria,2
+direct_mlp,Heart Attack,Malaria,3
+direct_mlp,Heat Stroke,Malaria,3
+direct_mlp,Influenza,Malaria,1
+direct_mlp,Malaria,Malaria,3
+direct_mlp,Migraine,Malaria,4
+direct_mlp,Sinusitis,Malaria,4
+direct_mlp,Stroke,Malaria,2
+direct_mlp,Arthritis,Migraine,17
+direct_mlp,Common Cold,Migraine,26
+direct_mlp,Dengue,Migraine,18
+direct_mlp,Eczema,Migraine,22
+direct_mlp,Heart Attack,Migraine,42
+direct_mlp,Heat Stroke,Migraine,23
+direct_mlp,Influenza,Migraine,41
+direct_mlp,Malaria,Migraine,16
+direct_mlp,Migraine,Migraine,53
+direct_mlp,Sinusitis,Migraine,13
+direct_mlp,Stroke,Migraine,26
+direct_mlp,Arthritis,Sinusitis,0
+direct_mlp,Common Cold,Sinusitis,1
+direct_mlp,Dengue,Sinusitis,2
+direct_mlp,Eczema,Sinusitis,0
+direct_mlp,Heart Attack,Sinusitis,1
+direct_mlp,Heat Stroke,Sinusitis,0
+direct_mlp,Influenza,Sinusitis,1
+direct_mlp,Malaria,Sinusitis,0
+direct_mlp,Migraine,Sinusitis,0
+direct_mlp,Sinusitis,Sinusitis,1
+direct_mlp,Stroke,Sinusitis,0
+direct_mlp,Arthritis,Stroke,1
+direct_mlp,Common Cold,Stroke,2
+direct_mlp,Dengue,Stroke,3
+direct_mlp,Eczema,Stroke,3
+direct_mlp,Heart Attack,Stroke,1
+direct_mlp,Heat Stroke,Stroke,1
+direct_mlp,Influenza,Stroke,3
+direct_mlp,Malaria,Stroke,1
+direct_mlp,Migraine,Stroke,3
+direct_mlp,Sinusitis,Stroke,6
+direct_mlp,Stroke,Stroke,1
+direct_xgb,Arthritis,Arthritis,2
+direct_xgb,Common Cold,Arthritis,4
+direct_xgb,Dengue,Arthritis,3
+direct_xgb,Eczema,Arthritis,4
+direct_xgb,Heart Attack,Arthritis,1
+direct_xgb,Heat Stroke,Arthritis,3
+direct_xgb,Influenza,Arthritis,3
+direct_xgb,Malaria,Arthritis,3
+direct_xgb,Migraine,Arthritis,2
+direct_xgb,Sinusitis,Arthritis,3
+direct_xgb,Stroke,Arthritis,2
+direct_xgb,Arthritis,Common Cold,4
+direct_xgb,Common Cold,Common Cold,1
+direct_xgb,Dengue,Common Cold,5
+direct_xgb,Eczema,Common Cold,3
+direct_xgb,Heart Attack,Common Cold,3
+direct_xgb,Heat Stroke,Common Cold,1
+direct_xgb,Influenza,Common Cold,4
+direct_xgb,Malaria,Common Cold,3
+direct_xgb,Migraine,Common Cold,5
+direct_xgb,Sinusitis,Common Cold,4
+direct_xgb,Stroke,Common Cold,1
+direct_xgb,Arthritis,Dengue,5
+direct_xgb,Common Cold,Dengue,7
+direct_xgb,Dengue,Dengue,5
+direct_xgb,Eczema,Dengue,4
+direct_xgb,Heart Attack,Dengue,5
+direct_xgb,Heat Stroke,Dengue,2
+direct_xgb,Influenza,Dengue,6
+direct_xgb,Malaria,Dengue,3
+direct_xgb,Migraine,Dengue,6
+direct_xgb,Sinusitis,Dengue,4
+direct_xgb,Stroke,Dengue,6
+direct_xgb,Arthritis,Eczema,6
+direct_xgb,Common Cold,Eczema,5
+direct_xgb,Dengue,Eczema,1
+direct_xgb,Eczema,Eczema,4
+direct_xgb,Heart Attack,Eczema,6
+direct_xgb,Heat Stroke,Eczema,5
+direct_xgb,Influenza,Eczema,4
+direct_xgb,Malaria,Eczema,7
+direct_xgb,Migraine,Eczema,6
+direct_xgb,Sinusitis,Eczema,5
+direct_xgb,Stroke,Eczema,5
+direct_xgb,Arthritis,Heart Attack,12
+direct_xgb,Common Cold,Heart Attack,12
+direct_xgb,Dengue,Heart Attack,15
+direct_xgb,Eczema,Heart Attack,13
+direct_xgb,Heart Attack,Heart Attack,83
+direct_xgb,Heat Stroke,Heart Attack,14
+direct_xgb,Influenza,Heart Attack,39
+direct_xgb,Malaria,Heart Attack,15
+direct_xgb,Migraine,Heart Attack,76
+direct_xgb,Sinusitis,Heart Attack,13
+direct_xgb,Stroke,Heart Attack,19
+direct_xgb,Arthritis,Heat Stroke,2
+direct_xgb,Common Cold,Heat Stroke,3
+direct_xgb,Dengue,Heat Stroke,1
+direct_xgb,Eczema,Heat Stroke,3
+direct_xgb,Heart Attack,Heat Stroke,7
+direct_xgb,Heat Stroke,Heat Stroke,4
+direct_xgb,Influenza,Heat Stroke,6
+direct_xgb,Malaria,Heat Stroke,4
+direct_xgb,Migraine,Heat Stroke,3
+direct_xgb,Sinusitis,Heat Stroke,4
+direct_xgb,Stroke,Heat Stroke,3
+direct_xgb,Arthritis,Influenza,6
+direct_xgb,Common Cold,Influenza,4
+direct_xgb,Dengue,Influenza,7
+direct_xgb,Eczema,Influenza,6
+direct_xgb,Heart Attack,Influenza,17
+direct_xgb,Heat Stroke,Influenza,6
+direct_xgb,Influenza,Influenza,20
+direct_xgb,Malaria,Influenza,7
+direct_xgb,Migraine,Influenza,20
+direct_xgb,Sinusitis,Influenza,4
+direct_xgb,Stroke,Influenza,1
+direct_xgb,Arthritis,Malaria,7
+direct_xgb,Common Cold,Malaria,4
+direct_xgb,Dengue,Malaria,2
+direct_xgb,Eczema,Malaria,2
+direct_xgb,Heart Attack,Malaria,4
+direct_xgb,Heat Stroke,Malaria,4
+direct_xgb,Influenza,Malaria,3
+direct_xgb,Malaria,Malaria,5
+direct_xgb,Migraine,Malaria,2
+direct_xgb,Sinusitis,Malaria,6
+direct_xgb,Stroke,Malaria,5
+direct_xgb,Arthritis,Migraine,15
+direct_xgb,Common Cold,Migraine,15
+direct_xgb,Dengue,Migraine,15
+direct_xgb,Eczema,Migraine,15
+direct_xgb,Heart Attack,Migraine,57
+direct_xgb,Heat Stroke,Migraine,17
+direct_xgb,Influenza,Migraine,35
+direct_xgb,Malaria,Migraine,14
+direct_xgb,Migraine,Migraine,51
+direct_xgb,Sinusitis,Migraine,11
+direct_xgb,Stroke,Migraine,15
+direct_xgb,Arthritis,Sinusitis,1
+direct_xgb,Common Cold,Sinusitis,3
+direct_xgb,Dengue,Sinusitis,3
+direct_xgb,Eczema,Sinusitis,2
+direct_xgb,Heart Attack,Sinusitis,3
+direct_xgb,Heat Stroke,Sinusitis,2
+direct_xgb,Influenza,Sinusitis,3
+direct_xgb,Malaria,Sinusitis,1
+direct_xgb,Migraine,Sinusitis,3
+direct_xgb,Sinusitis,Sinusitis,1
+direct_xgb,Stroke,Sinusitis,1
+direct_xgb,Arthritis,Stroke,1
+direct_xgb,Common Cold,Stroke,4
+direct_xgb,Dengue,Stroke,5
+direct_xgb,Eczema,Stroke,7
+direct_xgb,Heart Attack,Stroke,7
+direct_xgb,Heat Stroke,Stroke,7
+direct_xgb,Influenza,Stroke,3
+direct_xgb,Malaria,Stroke,2
+direct_xgb,Migraine,Stroke,5
+direct_xgb,Sinusitis,Stroke,5
+direct_xgb,Stroke,Stroke,4
+cascade_lr_prob_tabnet,Arthritis,Arthritis,0
+cascade_lr_prob_tabnet,Common Cold,Arthritis,0
+cascade_lr_prob_tabnet,Dengue,Arthritis,0
+cascade_lr_prob_tabnet,Eczema,Arthritis,0
+cascade_lr_prob_tabnet,Heart Attack,Arthritis,0
+cascade_lr_prob_tabnet,Heat Stroke,Arthritis,0
+cascade_lr_prob_tabnet,Influenza,Arthritis,0
+cascade_lr_prob_tabnet,Malaria,Arthritis,0
+cascade_lr_prob_tabnet,Migraine,Arthritis,0
+cascade_lr_prob_tabnet,Sinusitis,Arthritis,0
+cascade_lr_prob_tabnet,Stroke,Arthritis,0
+cascade_lr_prob_tabnet,Arthritis,Common Cold,0
+cascade_lr_prob_tabnet,Common Cold,Common Cold,0
+cascade_lr_prob_tabnet,Dengue,Common Cold,0
+cascade_lr_prob_tabnet,Eczema,Common Cold,0
+cascade_lr_prob_tabnet,Heart Attack,Common Cold,0
+cascade_lr_prob_tabnet,Heat Stroke,Common Cold,0
+cascade_lr_prob_tabnet,Influenza,Common Cold,0
+cascade_lr_prob_tabnet,Malaria,Common Cold,0
+cascade_lr_prob_tabnet,Migraine,Common Cold,0
+cascade_lr_prob_tabnet,Sinusitis,Common Cold,0
+cascade_lr_prob_tabnet,Stroke,Common Cold,0
+cascade_lr_prob_tabnet,Arthritis,Dengue,9
+cascade_lr_prob_tabnet,Common Cold,Dengue,9
+cascade_lr_prob_tabnet,Dengue,Dengue,4
+cascade_lr_prob_tabnet,Eczema,Dengue,16
+cascade_lr_prob_tabnet,Heart Attack,Dengue,14
+cascade_lr_prob_tabnet,Heat Stroke,Dengue,14
+cascade_lr_prob_tabnet,Influenza,Dengue,18
+cascade_lr_prob_tabnet,Malaria,Dengue,3
+cascade_lr_prob_tabnet,Migraine,Dengue,12
+cascade_lr_prob_tabnet,Sinusitis,Dengue,9
+cascade_lr_prob_tabnet,Stroke,Dengue,11
+cascade_lr_prob_tabnet,Arthritis,Eczema,2
+cascade_lr_prob_tabnet,Common Cold,Eczema,1
+cascade_lr_prob_tabnet,Dengue,Eczema,4
+cascade_lr_prob_tabnet,Eczema,Eczema,3
+cascade_lr_prob_tabnet,Heart Attack,Eczema,3
+cascade_lr_prob_tabnet,Heat Stroke,Eczema,2
+cascade_lr_prob_tabnet,Influenza,Eczema,4
+cascade_lr_prob_tabnet,Malaria,Eczema,4
+cascade_lr_prob_tabnet,Migraine,Eczema,9
+cascade_lr_prob_tabnet,Sinusitis,Eczema,9
+cascade_lr_prob_tabnet,Stroke,Eczema,4
+cascade_lr_prob_tabnet,Arthritis,Heart Attack,3
+cascade_lr_prob_tabnet,Common Cold,Heart Attack,3
+cascade_lr_prob_tabnet,Dengue,Heart Attack,5
+cascade_lr_prob_tabnet,Eczema,Heart Attack,2
+cascade_lr_prob_tabnet,Heart Attack,Heart Attack,22
+cascade_lr_prob_tabnet,Heat Stroke,Heart Attack,4
+cascade_lr_prob_tabnet,Influenza,Heart Attack,12
+cascade_lr_prob_tabnet,Malaria,Heart Attack,5
+cascade_lr_prob_tabnet,Migraine,Heart Attack,17
+cascade_lr_prob_tabnet,Sinusitis,Heart Attack,4
+cascade_lr_prob_tabnet,Stroke,Heart Attack,7
+cascade_lr_prob_tabnet,Arthritis,Heat Stroke,25
+cascade_lr_prob_tabnet,Common Cold,Heat Stroke,24
+cascade_lr_prob_tabnet,Dengue,Heat Stroke,28
+cascade_lr_prob_tabnet,Eczema,Heat Stroke,22
+cascade_lr_prob_tabnet,Heart Attack,Heat Stroke,72
+cascade_lr_prob_tabnet,Heat Stroke,Heat Stroke,27
+cascade_lr_prob_tabnet,Influenza,Heat Stroke,43
+cascade_lr_prob_tabnet,Malaria,Heat Stroke,28
+cascade_lr_prob_tabnet,Migraine,Heat Stroke,41
+cascade_lr_prob_tabnet,Sinusitis,Heat Stroke,21
+cascade_lr_prob_tabnet,Stroke,Heat Stroke,25
+cascade_lr_prob_tabnet,Arthritis,Influenza,18
+cascade_lr_prob_tabnet,Common Cold,Influenza,15
+cascade_lr_prob_tabnet,Dengue,Influenza,14
+cascade_lr_prob_tabnet,Eczema,Influenza,16
+cascade_lr_prob_tabnet,Heart Attack,Influenza,69
+cascade_lr_prob_tabnet,Heat Stroke,Influenza,16
+cascade_lr_prob_tabnet,Influenza,Influenza,47
+cascade_lr_prob_tabnet,Malaria,Influenza,17
+cascade_lr_prob_tabnet,Migraine,Influenza,85
+cascade_lr_prob_tabnet,Sinusitis,Influenza,8
+cascade_lr_prob_tabnet,Stroke,Influenza,8
+cascade_lr_prob_tabnet,Arthritis,Malaria,0
+cascade_lr_prob_tabnet,Common Cold,Malaria,1
+cascade_lr_prob_tabnet,Dengue,Malaria,2
+cascade_lr_prob_tabnet,Eczema,Malaria,0
+cascade_lr_prob_tabnet,Heart Attack,Malaria,3
+cascade_lr_prob_tabnet,Heat Stroke,Malaria,0
+cascade_lr_prob_tabnet,Influenza,Malaria,0
+cascade_lr_prob_tabnet,Malaria,Malaria,0
+cascade_lr_prob_tabnet,Migraine,Malaria,1
+cascade_lr_prob_tabnet,Sinusitis,Malaria,2
+cascade_lr_prob_tabnet,Stroke,Malaria,3
+cascade_lr_prob_tabnet,Arthritis,Migraine,0
+cascade_lr_prob_tabnet,Common Cold,Migraine,0
+cascade_lr_prob_tabnet,Dengue,Migraine,1
+cascade_lr_prob_tabnet,Eczema,Migraine,1
+cascade_lr_prob_tabnet,Heart Attack,Migraine,5
+cascade_lr_prob_tabnet,Heat Stroke,Migraine,0
+cascade_lr_prob_tabnet,Influenza,Migraine,0
+cascade_lr_prob_tabnet,Malaria,Migraine,0
+cascade_lr_prob_tabnet,Migraine,Migraine,0
+cascade_lr_prob_tabnet,Sinusitis,Migraine,0
+cascade_lr_prob_tabnet,Stroke,Migraine,0
+cascade_lr_prob_tabnet,Arthritis,Sinusitis,3
+cascade_lr_prob_tabnet,Common Cold,Sinusitis,8
+cascade_lr_prob_tabnet,Dengue,Sinusitis,3
+cascade_lr_prob_tabnet,Eczema,Sinusitis,2
+cascade_lr_prob_tabnet,Heart Attack,Sinusitis,3
+cascade_lr_prob_tabnet,Heat Stroke,Sinusitis,2
+cascade_lr_prob_tabnet,Influenza,Sinusitis,0
+cascade_lr_prob_tabnet,Malaria,Sinusitis,6
+cascade_lr_prob_tabnet,Migraine,Sinusitis,8
+cascade_lr_prob_tabnet,Sinusitis,Sinusitis,4
+cascade_lr_prob_tabnet,Stroke,Sinusitis,4
+cascade_lr_prob_tabnet,Arthritis,Stroke,1
+cascade_lr_prob_tabnet,Common Cold,Stroke,1
+cascade_lr_prob_tabnet,Dengue,Stroke,1
+cascade_lr_prob_tabnet,Eczema,Stroke,1
+cascade_lr_prob_tabnet,Heart Attack,Stroke,2
+cascade_lr_prob_tabnet,Heat Stroke,Stroke,0
+cascade_lr_prob_tabnet,Influenza,Stroke,2
+cascade_lr_prob_tabnet,Malaria,Stroke,1
+cascade_lr_prob_tabnet,Migraine,Stroke,6
+cascade_lr_prob_tabnet,Sinusitis,Stroke,3
+cascade_lr_prob_tabnet,Stroke,Stroke,0
+cascade_mlp_prob_tabnet,Arthritis,Arthritis,0
+cascade_mlp_prob_tabnet,Common Cold,Arthritis,0
+cascade_mlp_prob_tabnet,Dengue,Arthritis,0
+cascade_mlp_prob_tabnet,Eczema,Arthritis,0
+cascade_mlp_prob_tabnet,Heart Attack,Arthritis,0
+cascade_mlp_prob_tabnet,Heat Stroke,Arthritis,0
+cascade_mlp_prob_tabnet,Influenza,Arthritis,0
+cascade_mlp_prob_tabnet,Malaria,Arthritis,0
+cascade_mlp_prob_tabnet,Migraine,Arthritis,0
+cascade_mlp_prob_tabnet,Sinusitis,Arthritis,0
+cascade_mlp_prob_tabnet,Stroke,Arthritis,0
+cascade_mlp_prob_tabnet,Arthritis,Common Cold,0
+cascade_mlp_prob_tabnet,Common Cold,Common Cold,0
+cascade_mlp_prob_tabnet,Dengue,Common Cold,0
+cascade_mlp_prob_tabnet,Eczema,Common Cold,0
+cascade_mlp_prob_tabnet,Heart Attack,Common Cold,0
+cascade_mlp_prob_tabnet,Heat Stroke,Common Cold,0
+cascade_mlp_prob_tabnet,Influenza,Common Cold,0
+cascade_mlp_prob_tabnet,Malaria,Common Cold,0
+cascade_mlp_prob_tabnet,Migraine,Common Cold,0
+cascade_mlp_prob_tabnet,Sinusitis,Common Cold,0
+cascade_mlp_prob_tabnet,Stroke,Common Cold,0
+cascade_mlp_prob_tabnet,Arthritis,Dengue,28
+cascade_mlp_prob_tabnet,Common Cold,Dengue,21
+cascade_mlp_prob_tabnet,Dengue,Dengue,18
+cascade_mlp_prob_tabnet,Eczema,Dengue,26
+cascade_mlp_prob_tabnet,Heart Attack,Dengue,88
+cascade_mlp_prob_tabnet,Heat Stroke,Dengue,24
+cascade_mlp_prob_tabnet,Influenza,Dengue,63
+cascade_mlp_prob_tabnet,Malaria,Dengue,31
+cascade_mlp_prob_tabnet,Migraine,Dengue,86
+cascade_mlp_prob_tabnet,Sinusitis,Dengue,16
+cascade_mlp_prob_tabnet,Stroke,Dengue,27
+cascade_mlp_prob_tabnet,Arthritis,Eczema,0
+cascade_mlp_prob_tabnet,Common Cold,Eczema,0
+cascade_mlp_prob_tabnet,Dengue,Eczema,0
+cascade_mlp_prob_tabnet,Eczema,Eczema,0
+cascade_mlp_prob_tabnet,Heart Attack,Eczema,0
+cascade_mlp_prob_tabnet,Heat Stroke,Eczema,0
+cascade_mlp_prob_tabnet,Influenza,Eczema,0
+cascade_mlp_prob_tabnet,Malaria,Eczema,0
+cascade_mlp_prob_tabnet,Migraine,Eczema,0
+cascade_mlp_prob_tabnet,Sinusitis,Eczema,0
+cascade_mlp_prob_tabnet,Stroke,Eczema,0
+cascade_mlp_prob_tabnet,Arthritis,Heart Attack,12
+cascade_mlp_prob_tabnet,Common Cold,Heart Attack,13
+cascade_mlp_prob_tabnet,Dengue,Heart Attack,16
+cascade_mlp_prob_tabnet,Eczema,Heart Attack,11
+cascade_mlp_prob_tabnet,Heart Attack,Heart Attack,67
+cascade_mlp_prob_tabnet,Heat Stroke,Heart Attack,22
+cascade_mlp_prob_tabnet,Influenza,Heart Attack,36
+cascade_mlp_prob_tabnet,Malaria,Heart Attack,11
+cascade_mlp_prob_tabnet,Migraine,Heart Attack,48
+cascade_mlp_prob_tabnet,Sinusitis,Heart Attack,11
+cascade_mlp_prob_tabnet,Stroke,Heart Attack,11
+cascade_mlp_prob_tabnet,Arthritis,Heat Stroke,0
+cascade_mlp_prob_tabnet,Common Cold,Heat Stroke,0
+cascade_mlp_prob_tabnet,Dengue,Heat Stroke,0
+cascade_mlp_prob_tabnet,Eczema,Heat Stroke,0
+cascade_mlp_prob_tabnet,Heart Attack,Heat Stroke,0
+cascade_mlp_prob_tabnet,Heat Stroke,Heat Stroke,0
+cascade_mlp_prob_tabnet,Influenza,Heat Stroke,0
+cascade_mlp_prob_tabnet,Malaria,Heat Stroke,0
+cascade_mlp_prob_tabnet,Migraine,Heat Stroke,0
+cascade_mlp_prob_tabnet,Sinusitis,Heat Stroke,0
+cascade_mlp_prob_tabnet,Stroke,Heat Stroke,0
+cascade_mlp_prob_tabnet,Arthritis,Influenza,4
+cascade_mlp_prob_tabnet,Common Cold,Influenza,6
+cascade_mlp_prob_tabnet,Dengue,Influenza,8
+cascade_mlp_prob_tabnet,Eczema,Influenza,8
+cascade_mlp_prob_tabnet,Heart Attack,Influenza,18
+cascade_mlp_prob_tabnet,Heat Stroke,Influenza,3
+cascade_mlp_prob_tabnet,Influenza,Influenza,8
+cascade_mlp_prob_tabnet,Malaria,Influenza,11
+cascade_mlp_prob_tabnet,Migraine,Influenza,22
+cascade_mlp_prob_tabnet,Sinusitis,Influenza,12
+cascade_mlp_prob_tabnet,Stroke,Influenza,6
+cascade_mlp_prob_tabnet,Arthritis,Malaria,0
+cascade_mlp_prob_tabnet,Common Cold,Malaria,0
+cascade_mlp_prob_tabnet,Dengue,Malaria,0
+cascade_mlp_prob_tabnet,Eczema,Malaria,0
+cascade_mlp_prob_tabnet,Heart Attack,Malaria,0
+cascade_mlp_prob_tabnet,Heat Stroke,Malaria,0
+cascade_mlp_prob_tabnet,Influenza,Malaria,0
+cascade_mlp_prob_tabnet,Malaria,Malaria,0
+cascade_mlp_prob_tabnet,Migraine,Malaria,0
+cascade_mlp_prob_tabnet,Sinusitis,Malaria,0
+cascade_mlp_prob_tabnet,Stroke,Malaria,0
+cascade_mlp_prob_tabnet,Arthritis,Migraine,0
+cascade_mlp_prob_tabnet,Common Cold,Migraine,0
+cascade_mlp_prob_tabnet,Dengue,Migraine,0
+cascade_mlp_prob_tabnet,Eczema,Migraine,0
+cascade_mlp_prob_tabnet,Heart Attack,Migraine,0
+cascade_mlp_prob_tabnet,Heat Stroke,Migraine,0
+cascade_mlp_prob_tabnet,Influenza,Migraine,0
+cascade_mlp_prob_tabnet,Malaria,Migraine,0
+cascade_mlp_prob_tabnet,Migraine,Migraine,0
+cascade_mlp_prob_tabnet,Sinusitis,Migraine,0
+cascade_mlp_prob_tabnet,Stroke,Migraine,0
+cascade_mlp_prob_tabnet,Arthritis,Sinusitis,17
+cascade_mlp_prob_tabnet,Common Cold,Sinusitis,22
+cascade_mlp_prob_tabnet,Dengue,Sinusitis,20
+cascade_mlp_prob_tabnet,Eczema,Sinusitis,18
+cascade_mlp_prob_tabnet,Heart Attack,Sinusitis,20
+cascade_mlp_prob_tabnet,Heat Stroke,Sinusitis,16
+cascade_mlp_prob_tabnet,Influenza,Sinusitis,19
+cascade_mlp_prob_tabnet,Malaria,Sinusitis,11
+cascade_mlp_prob_tabnet,Migraine,Sinusitis,23
+cascade_mlp_prob_tabnet,Sinusitis,Sinusitis,21
+cascade_mlp_prob_tabnet,Stroke,Sinusitis,18
+cascade_mlp_prob_tabnet,Arthritis,Stroke,0
+cascade_mlp_prob_tabnet,Common Cold,Stroke,0
+cascade_mlp_prob_tabnet,Dengue,Stroke,0
+cascade_mlp_prob_tabnet,Eczema,Stroke,0
+cascade_mlp_prob_tabnet,Heart Attack,Stroke,0
+cascade_mlp_prob_tabnet,Heat Stroke,Stroke,0
+cascade_mlp_prob_tabnet,Influenza,Stroke,0
+cascade_mlp_prob_tabnet,Malaria,Stroke,0
+cascade_mlp_prob_tabnet,Migraine,Stroke,0
+cascade_mlp_prob_tabnet,Sinusitis,Stroke,0
+cascade_mlp_prob_tabnet,Stroke,Stroke,0
+cascade_xgb_prob_tabnet,Arthritis,Arthritis,0
+cascade_xgb_prob_tabnet,Common Cold,Arthritis,0
+cascade_xgb_prob_tabnet,Dengue,Arthritis,0
+cascade_xgb_prob_tabnet,Eczema,Arthritis,0
+cascade_xgb_prob_tabnet,Heart Attack,Arthritis,0
+cascade_xgb_prob_tabnet,Heat Stroke,Arthritis,0
+cascade_xgb_prob_tabnet,Influenza,Arthritis,0
+cascade_xgb_prob_tabnet,Malaria,Arthritis,0
+cascade_xgb_prob_tabnet,Migraine,Arthritis,0
+cascade_xgb_prob_tabnet,Sinusitis,Arthritis,1
+cascade_xgb_prob_tabnet,Stroke,Arthritis,0
+cascade_xgb_prob_tabnet,Arthritis,Common Cold,4
+cascade_xgb_prob_tabnet,Common Cold,Common Cold,4
+cascade_xgb_prob_tabnet,Dengue,Common Cold,5
+cascade_xgb_prob_tabnet,Eczema,Common Cold,0
+cascade_xgb_prob_tabnet,Heart Attack,Common Cold,4
+cascade_xgb_prob_tabnet,Heat Stroke,Common Cold,3
+cascade_xgb_prob_tabnet,Influenza,Common Cold,3
+cascade_xgb_prob_tabnet,Malaria,Common Cold,2
+cascade_xgb_prob_tabnet,Migraine,Common Cold,2
+cascade_xgb_prob_tabnet,Sinusitis,Common Cold,4
+cascade_xgb_prob_tabnet,Stroke,Common Cold,0
+cascade_xgb_prob_tabnet,Arthritis,Dengue,0
+cascade_xgb_prob_tabnet,Common Cold,Dengue,0
+cascade_xgb_prob_tabnet,Dengue,Dengue,0
+cascade_xgb_prob_tabnet,Eczema,Dengue,0
+cascade_xgb_prob_tabnet,Heart Attack,Dengue,0
+cascade_xgb_prob_tabnet,Heat Stroke,Dengue,1
+cascade_xgb_prob_tabnet,Influenza,Dengue,0
+cascade_xgb_prob_tabnet,Malaria,Dengue,1
+cascade_xgb_prob_tabnet,Migraine,Dengue,3
+cascade_xgb_prob_tabnet,Sinusitis,Dengue,0
+cascade_xgb_prob_tabnet,Stroke,Dengue,1
+cascade_xgb_prob_tabnet,Arthritis,Eczema,0
+cascade_xgb_prob_tabnet,Common Cold,Eczema,0
+cascade_xgb_prob_tabnet,Dengue,Eczema,0
+cascade_xgb_prob_tabnet,Eczema,Eczema,0
+cascade_xgb_prob_tabnet,Heart Attack,Eczema,0
+cascade_xgb_prob_tabnet,Heat Stroke,Eczema,0
+cascade_xgb_prob_tabnet,Influenza,Eczema,0
+cascade_xgb_prob_tabnet,Malaria,Eczema,0
+cascade_xgb_prob_tabnet,Migraine,Eczema,0
+cascade_xgb_prob_tabnet,Sinusitis,Eczema,0
+cascade_xgb_prob_tabnet,Stroke,Eczema,0
+cascade_xgb_prob_tabnet,Arthritis,Heart Attack,0
+cascade_xgb_prob_tabnet,Common Cold,Heart Attack,1
+cascade_xgb_prob_tabnet,Dengue,Heart Attack,0
+cascade_xgb_prob_tabnet,Eczema,Heart Attack,1
+cascade_xgb_prob_tabnet,Heart Attack,Heart Attack,1
+cascade_xgb_prob_tabnet,Heat Stroke,Heart Attack,1
+cascade_xgb_prob_tabnet,Influenza,Heart Attack,2
+cascade_xgb_prob_tabnet,Malaria,Heart Attack,1
+cascade_xgb_prob_tabnet,Migraine,Heart Attack,3
+cascade_xgb_prob_tabnet,Sinusitis,Heart Attack,0
+cascade_xgb_prob_tabnet,Stroke,Heart Attack,0
+cascade_xgb_prob_tabnet,Arthritis,Heat Stroke,0
+cascade_xgb_prob_tabnet,Common Cold,Heat Stroke,0
+cascade_xgb_prob_tabnet,Dengue,Heat Stroke,0
+cascade_xgb_prob_tabnet,Eczema,Heat Stroke,0
+cascade_xgb_prob_tabnet,Heart Attack,Heat Stroke,0
+cascade_xgb_prob_tabnet,Heat Stroke,Heat Stroke,1
+cascade_xgb_prob_tabnet,Influenza,Heat Stroke,1
+cascade_xgb_prob_tabnet,Malaria,Heat Stroke,0
+cascade_xgb_prob_tabnet,Migraine,Heat Stroke,2
+cascade_xgb_prob_tabnet,Sinusitis,Heat Stroke,1
+cascade_xgb_prob_tabnet,Stroke,Heat Stroke,1
+cascade_xgb_prob_tabnet,Arthritis,Influenza,39
+cascade_xgb_prob_tabnet,Common Cold,Influenza,42
+cascade_xgb_prob_tabnet,Dengue,Influenza,37
+cascade_xgb_prob_tabnet,Eczema,Influenza,44
+cascade_xgb_prob_tabnet,Heart Attack,Influenza,167
+cascade_xgb_prob_tabnet,Heat Stroke,Influenza,46
+cascade_xgb_prob_tabnet,Influenza,Influenza,97
+cascade_xgb_prob_tabnet,Malaria,Influenza,43
+cascade_xgb_prob_tabnet,Migraine,Influenza,149
+cascade_xgb_prob_tabnet,Sinusitis,Influenza,38
+cascade_xgb_prob_tabnet,Stroke,Influenza,43
+cascade_xgb_prob_tabnet,Arthritis,Malaria,13
+cascade_xgb_prob_tabnet,Common Cold,Malaria,9
+cascade_xgb_prob_tabnet,Dengue,Malaria,17
+cascade_xgb_prob_tabnet,Eczema,Malaria,16
+cascade_xgb_prob_tabnet,Heart Attack,Malaria,13
+cascade_xgb_prob_tabnet,Heat Stroke,Malaria,9
+cascade_xgb_prob_tabnet,Influenza,Malaria,21
+cascade_xgb_prob_tabnet,Malaria,Malaria,14
+cascade_xgb_prob_tabnet,Migraine,Malaria,18
+cascade_xgb_prob_tabnet,Sinusitis,Malaria,13
+cascade_xgb_prob_tabnet,Stroke,Malaria,14
+cascade_xgb_prob_tabnet,Arthritis,Migraine,0
+cascade_xgb_prob_tabnet,Common Cold,Migraine,1
+cascade_xgb_prob_tabnet,Dengue,Migraine,0
+cascade_xgb_prob_tabnet,Eczema,Migraine,0
+cascade_xgb_prob_tabnet,Heart Attack,Migraine,5
+cascade_xgb_prob_tabnet,Heat Stroke,Migraine,0
+cascade_xgb_prob_tabnet,Influenza,Migraine,0
+cascade_xgb_prob_tabnet,Malaria,Migraine,0
+cascade_xgb_prob_tabnet,Migraine,Migraine,0
+cascade_xgb_prob_tabnet,Sinusitis,Migraine,0
+cascade_xgb_prob_tabnet,Stroke,Migraine,0
+cascade_xgb_prob_tabnet,Arthritis,Sinusitis,0
+cascade_xgb_prob_tabnet,Common Cold,Sinusitis,4
+cascade_xgb_prob_tabnet,Dengue,Sinusitis,0
+cascade_xgb_prob_tabnet,Eczema,Sinusitis,0
+cascade_xgb_prob_tabnet,Heart Attack,Sinusitis,0
+cascade_xgb_prob_tabnet,Heat Stroke,Sinusitis,0
+cascade_xgb_prob_tabnet,Influenza,Sinusitis,1
+cascade_xgb_prob_tabnet,Malaria,Sinusitis,0
+cascade_xgb_prob_tabnet,Migraine,Sinusitis,0
+cascade_xgb_prob_tabnet,Sinusitis,Sinusitis,0
+cascade_xgb_prob_tabnet,Stroke,Sinusitis,1
+cascade_xgb_prob_tabnet,Arthritis,Stroke,5
+cascade_xgb_prob_tabnet,Common Cold,Stroke,1
+cascade_xgb_prob_tabnet,Dengue,Stroke,3
+cascade_xgb_prob_tabnet,Eczema,Stroke,2
+cascade_xgb_prob_tabnet,Heart Attack,Stroke,3
+cascade_xgb_prob_tabnet,Heat Stroke,Stroke,4
+cascade_xgb_prob_tabnet,Influenza,Stroke,1
+cascade_xgb_prob_tabnet,Malaria,Stroke,3
+cascade_xgb_prob_tabnet,Migraine,Stroke,2
+cascade_xgb_prob_tabnet,Sinusitis,Stroke,3
+cascade_xgb_prob_tabnet,Stroke,Stroke,2
+cascade_xgb_binary_tabnet,Arthritis,Arthritis,5
+cascade_xgb_binary_tabnet,Common Cold,Arthritis,6
+cascade_xgb_binary_tabnet,Dengue,Arthritis,5
+cascade_xgb_binary_tabnet,Eczema,Arthritis,9
+cascade_xgb_binary_tabnet,Heart Attack,Arthritis,9
+cascade_xgb_binary_tabnet,Heat Stroke,Arthritis,6
+cascade_xgb_binary_tabnet,Influenza,Arthritis,7
+cascade_xgb_binary_tabnet,Malaria,Arthritis,5
+cascade_xgb_binary_tabnet,Migraine,Arthritis,7
+cascade_xgb_binary_tabnet,Sinusitis,Arthritis,6
+cascade_xgb_binary_tabnet,Stroke,Arthritis,1
+cascade_xgb_binary_tabnet,Arthritis,Common Cold,3
+cascade_xgb_binary_tabnet,Common Cold,Common Cold,4
+cascade_xgb_binary_tabnet,Dengue,Common Cold,6
+cascade_xgb_binary_tabnet,Eczema,Common Cold,4
+cascade_xgb_binary_tabnet,Heart Attack,Common Cold,14
+cascade_xgb_binary_tabnet,Heat Stroke,Common Cold,6
+cascade_xgb_binary_tabnet,Influenza,Common Cold,9
+cascade_xgb_binary_tabnet,Malaria,Common Cold,4
+cascade_xgb_binary_tabnet,Migraine,Common Cold,4
+cascade_xgb_binary_tabnet,Sinusitis,Common Cold,10
+cascade_xgb_binary_tabnet,Stroke,Common Cold,3
+cascade_xgb_binary_tabnet,Arthritis,Dengue,9
+cascade_xgb_binary_tabnet,Common Cold,Dengue,10
+cascade_xgb_binary_tabnet,Dengue,Dengue,10
+cascade_xgb_binary_tabnet,Eczema,Dengue,7
+cascade_xgb_binary_tabnet,Heart Attack,Dengue,19
+cascade_xgb_binary_tabnet,Heat Stroke,Dengue,9
+cascade_xgb_binary_tabnet,Influenza,Dengue,7
+cascade_xgb_binary_tabnet,Malaria,Dengue,10
+cascade_xgb_binary_tabnet,Migraine,Dengue,14
+cascade_xgb_binary_tabnet,Sinusitis,Dengue,7
+cascade_xgb_binary_tabnet,Stroke,Dengue,11
+cascade_xgb_binary_tabnet,Arthritis,Eczema,10
+cascade_xgb_binary_tabnet,Common Cold,Eczema,9
+cascade_xgb_binary_tabnet,Dengue,Eczema,4
+cascade_xgb_binary_tabnet,Eczema,Eczema,6
+cascade_xgb_binary_tabnet,Heart Attack,Eczema,4
+cascade_xgb_binary_tabnet,Heat Stroke,Eczema,11
+cascade_xgb_binary_tabnet,Influenza,Eczema,7
+cascade_xgb_binary_tabnet,Malaria,Eczema,5
+cascade_xgb_binary_tabnet,Migraine,Eczema,11
+cascade_xgb_binary_tabnet,Sinusitis,Eczema,6
+cascade_xgb_binary_tabnet,Stroke,Eczema,11
+cascade_xgb_binary_tabnet,Arthritis,Heart Attack,3
+cascade_xgb_binary_tabnet,Common Cold,Heart Attack,2
+cascade_xgb_binary_tabnet,Dengue,Heart Attack,0
+cascade_xgb_binary_tabnet,Eczema,Heart Attack,2
+cascade_xgb_binary_tabnet,Heart Attack,Heart Attack,42
+cascade_xgb_binary_tabnet,Heat Stroke,Heart Attack,3
+cascade_xgb_binary_tabnet,Influenza,Heart Attack,26
+cascade_xgb_binary_tabnet,Malaria,Heart Attack,2
+cascade_xgb_binary_tabnet,Migraine,Heart Attack,43
+cascade_xgb_binary_tabnet,Sinusitis,Heart Attack,1
+cascade_xgb_binary_tabnet,Stroke,Heart Attack,1
+cascade_xgb_binary_tabnet,Arthritis,Heat Stroke,3
+cascade_xgb_binary_tabnet,Common Cold,Heat Stroke,5
+cascade_xgb_binary_tabnet,Dengue,Heat Stroke,6
+cascade_xgb_binary_tabnet,Eczema,Heat Stroke,7
+cascade_xgb_binary_tabnet,Heart Attack,Heat Stroke,9
+cascade_xgb_binary_tabnet,Heat Stroke,Heat Stroke,5
+cascade_xgb_binary_tabnet,Influenza,Heat Stroke,3
+cascade_xgb_binary_tabnet,Malaria,Heat Stroke,7
+cascade_xgb_binary_tabnet,Migraine,Heat Stroke,17
+cascade_xgb_binary_tabnet,Sinusitis,Heat Stroke,4
+cascade_xgb_binary_tabnet,Stroke,Heat Stroke,5
+cascade_xgb_binary_tabnet,Arthritis,Influenza,6
+cascade_xgb_binary_tabnet,Common Cold,Influenza,4
+cascade_xgb_binary_tabnet,Dengue,Influenza,7
+cascade_xgb_binary_tabnet,Eczema,Influenza,4
+cascade_xgb_binary_tabnet,Heart Attack,Influenza,19
+cascade_xgb_binary_tabnet,Heat Stroke,Influenza,5
+cascade_xgb_binary_tabnet,Influenza,Influenza,21
+cascade_xgb_binary_tabnet,Malaria,Influenza,1
+cascade_xgb_binary_tabnet,Migraine,Influenza,30
+cascade_xgb_binary_tabnet,Sinusitis,Influenza,3
+cascade_xgb_binary_tabnet,Stroke,Influenza,7
+cascade_xgb_binary_tabnet,Arthritis,Malaria,6
+cascade_xgb_binary_tabnet,Common Cold,Malaria,5
+cascade_xgb_binary_tabnet,Dengue,Malaria,7
+cascade_xgb_binary_tabnet,Eczema,Malaria,6
+cascade_xgb_binary_tabnet,Heart Attack,Malaria,17
+cascade_xgb_binary_tabnet,Heat Stroke,Malaria,5
+cascade_xgb_binary_tabnet,Influenza,Malaria,11
+cascade_xgb_binary_tabnet,Malaria,Malaria,6
+cascade_xgb_binary_tabnet,Migraine,Malaria,15
+cascade_xgb_binary_tabnet,Sinusitis,Malaria,8
+cascade_xgb_binary_tabnet,Stroke,Malaria,5
+cascade_xgb_binary_tabnet,Arthritis,Migraine,2
+cascade_xgb_binary_tabnet,Common Cold,Migraine,3
+cascade_xgb_binary_tabnet,Dengue,Migraine,3
+cascade_xgb_binary_tabnet,Eczema,Migraine,4
+cascade_xgb_binary_tabnet,Heart Attack,Migraine,32
+cascade_xgb_binary_tabnet,Heat Stroke,Migraine,4
+cascade_xgb_binary_tabnet,Influenza,Migraine,8
+cascade_xgb_binary_tabnet,Malaria,Migraine,6
+cascade_xgb_binary_tabnet,Migraine,Migraine,5
+cascade_xgb_binary_tabnet,Sinusitis,Migraine,1
+cascade_xgb_binary_tabnet,Stroke,Migraine,2
+cascade_xgb_binary_tabnet,Arthritis,Sinusitis,11
+cascade_xgb_binary_tabnet,Common Cold,Sinusitis,12
+cascade_xgb_binary_tabnet,Dengue,Sinusitis,11
+cascade_xgb_binary_tabnet,Eczema,Sinusitis,13
+cascade_xgb_binary_tabnet,Heart Attack,Sinusitis,25
+cascade_xgb_binary_tabnet,Heat Stroke,Sinusitis,9
+cascade_xgb_binary_tabnet,Influenza,Sinusitis,16
+cascade_xgb_binary_tabnet,Malaria,Sinusitis,11
+cascade_xgb_binary_tabnet,Migraine,Sinusitis,27
+cascade_xgb_binary_tabnet,Sinusitis,Sinusitis,13
+cascade_xgb_binary_tabnet,Stroke,Sinusitis,14
+cascade_xgb_binary_tabnet,Arthritis,Stroke,3
+cascade_xgb_binary_tabnet,Common Cold,Stroke,2
+cascade_xgb_binary_tabnet,Dengue,Stroke,3
+cascade_xgb_binary_tabnet,Eczema,Stroke,1
+cascade_xgb_binary_tabnet,Heart Attack,Stroke,3
+cascade_xgb_binary_tabnet,Heat Stroke,Stroke,2
+cascade_xgb_binary_tabnet,Influenza,Stroke,11
+cascade_xgb_binary_tabnet,Malaria,Stroke,7
+cascade_xgb_binary_tabnet,Migraine,Stroke,6
+cascade_xgb_binary_tabnet,Sinusitis,Stroke,1
+cascade_xgb_binary_tabnet,Stroke,Stroke,2
+oracle_true_symptom_tabnet,Arthritis,Arthritis,61
+oracle_true_symptom_tabnet,Common Cold,Arthritis,0
+oracle_true_symptom_tabnet,Dengue,Arthritis,0
+oracle_true_symptom_tabnet,Eczema,Arthritis,0
+oracle_true_symptom_tabnet,Heart Attack,Arthritis,0
+oracle_true_symptom_tabnet,Heat Stroke,Arthritis,0
+oracle_true_symptom_tabnet,Influenza,Arthritis,0
+oracle_true_symptom_tabnet,Malaria,Arthritis,0
+oracle_true_symptom_tabnet,Migraine,Arthritis,0
+oracle_true_symptom_tabnet,Sinusitis,Arthritis,0
+oracle_true_symptom_tabnet,Stroke,Arthritis,0
+oracle_true_symptom_tabnet,Arthritis,Common Cold,0
+oracle_true_symptom_tabnet,Common Cold,Common Cold,61
+oracle_true_symptom_tabnet,Dengue,Common Cold,0
+oracle_true_symptom_tabnet,Eczema,Common Cold,0
+oracle_true_symptom_tabnet,Heart Attack,Common Cold,0
+oracle_true_symptom_tabnet,Heat Stroke,Common Cold,0
+oracle_true_symptom_tabnet,Influenza,Common Cold,3
+oracle_true_symptom_tabnet,Malaria,Common Cold,0
+oracle_true_symptom_tabnet,Migraine,Common Cold,0
+oracle_true_symptom_tabnet,Sinusitis,Common Cold,0
+oracle_true_symptom_tabnet,Stroke,Common Cold,0
+oracle_true_symptom_tabnet,Arthritis,Dengue,0
+oracle_true_symptom_tabnet,Common Cold,Dengue,0
+oracle_true_symptom_tabnet,Dengue,Dengue,62
+oracle_true_symptom_tabnet,Eczema,Dengue,0
+oracle_true_symptom_tabnet,Heart Attack,Dengue,0
+oracle_true_symptom_tabnet,Heat Stroke,Dengue,0
+oracle_true_symptom_tabnet,Influenza,Dengue,0
+oracle_true_symptom_tabnet,Malaria,Dengue,1
+oracle_true_symptom_tabnet,Migraine,Dengue,0
+oracle_true_symptom_tabnet,Sinusitis,Dengue,0
+oracle_true_symptom_tabnet,Stroke,Dengue,0
+oracle_true_symptom_tabnet,Arthritis,Eczema,0
+oracle_true_symptom_tabnet,Common Cold,Eczema,0
+oracle_true_symptom_tabnet,Dengue,Eczema,0
+oracle_true_symptom_tabnet,Eczema,Eczema,63
+oracle_true_symptom_tabnet,Heart Attack,Eczema,0
+oracle_true_symptom_tabnet,Heat Stroke,Eczema,0
+oracle_true_symptom_tabnet,Influenza,Eczema,0
+oracle_true_symptom_tabnet,Malaria,Eczema,0
+oracle_true_symptom_tabnet,Migraine,Eczema,0
+oracle_true_symptom_tabnet,Sinusitis,Eczema,0
+oracle_true_symptom_tabnet,Stroke,Eczema,0
+oracle_true_symptom_tabnet,Arthritis,Heart Attack,0
+oracle_true_symptom_tabnet,Common Cold,Heart Attack,0
+oracle_true_symptom_tabnet,Dengue,Heart Attack,0
+oracle_true_symptom_tabnet,Eczema,Heart Attack,0
+oracle_true_symptom_tabnet,Heart Attack,Heart Attack,189
+oracle_true_symptom_tabnet,Heat Stroke,Heart Attack,0
+oracle_true_symptom_tabnet,Influenza,Heart Attack,0
+oracle_true_symptom_tabnet,Malaria,Heart Attack,0
+oracle_true_symptom_tabnet,Migraine,Heart Attack,0
+oracle_true_symptom_tabnet,Sinusitis,Heart Attack,0
+oracle_true_symptom_tabnet,Stroke,Heart Attack,0
+oracle_true_symptom_tabnet,Arthritis,Heat Stroke,0
+oracle_true_symptom_tabnet,Common Cold,Heat Stroke,0
+oracle_true_symptom_tabnet,Dengue,Heat Stroke,0
+oracle_true_symptom_tabnet,Eczema,Heat Stroke,0
+oracle_true_symptom_tabnet,Heart Attack,Heat Stroke,3
+oracle_true_symptom_tabnet,Heat Stroke,Heat Stroke,64
+oracle_true_symptom_tabnet,Influenza,Heat Stroke,0
+oracle_true_symptom_tabnet,Malaria,Heat Stroke,1
+oracle_true_symptom_tabnet,Migraine,Heat Stroke,0
+oracle_true_symptom_tabnet,Sinusitis,Heat Stroke,0
+oracle_true_symptom_tabnet,Stroke,Heat Stroke,3
+oracle_true_symptom_tabnet,Arthritis,Influenza,0
+oracle_true_symptom_tabnet,Common Cold,Influenza,1
+oracle_true_symptom_tabnet,Dengue,Influenza,0
+oracle_true_symptom_tabnet,Eczema,Influenza,0
+oracle_true_symptom_tabnet,Heart Attack,Influenza,1
+oracle_true_symptom_tabnet,Heat Stroke,Influenza,1
+oracle_true_symptom_tabnet,Influenza,Influenza,123
+oracle_true_symptom_tabnet,Malaria,Influenza,1
+oracle_true_symptom_tabnet,Migraine,Influenza,13
+oracle_true_symptom_tabnet,Sinusitis,Influenza,1
+oracle_true_symptom_tabnet,Stroke,Influenza,0
+oracle_true_symptom_tabnet,Arthritis,Malaria,0
+oracle_true_symptom_tabnet,Common Cold,Malaria,0
+oracle_true_symptom_tabnet,Dengue,Malaria,0
+oracle_true_symptom_tabnet,Eczema,Malaria,0
+oracle_true_symptom_tabnet,Heart Attack,Malaria,0
+oracle_true_symptom_tabnet,Heat Stroke,Malaria,0
+oracle_true_symptom_tabnet,Influenza,Malaria,0
+oracle_true_symptom_tabnet,Malaria,Malaria,61
+oracle_true_symptom_tabnet,Migraine,Malaria,0
+oracle_true_symptom_tabnet,Sinusitis,Malaria,0
+oracle_true_symptom_tabnet,Stroke,Malaria,0
+oracle_true_symptom_tabnet,Arthritis,Migraine,0
+oracle_true_symptom_tabnet,Common Cold,Migraine,0
+oracle_true_symptom_tabnet,Dengue,Migraine,0
+oracle_true_symptom_tabnet,Eczema,Migraine,0
+oracle_true_symptom_tabnet,Heart Attack,Migraine,0
+oracle_true_symptom_tabnet,Heat Stroke,Migraine,0
+oracle_true_symptom_tabnet,Influenza,Migraine,0
+oracle_true_symptom_tabnet,Malaria,Migraine,0
+oracle_true_symptom_tabnet,Migraine,Migraine,158
+oracle_true_symptom_tabnet,Sinusitis,Migraine,0
+oracle_true_symptom_tabnet,Stroke,Migraine,0
+oracle_true_symptom_tabnet,Arthritis,Sinusitis,0
+oracle_true_symptom_tabnet,Common Cold,Sinusitis,0
+oracle_true_symptom_tabnet,Dengue,Sinusitis,0
+oracle_true_symptom_tabnet,Eczema,Sinusitis,0
+oracle_true_symptom_tabnet,Heart Attack,Sinusitis,0
+oracle_true_symptom_tabnet,Heat Stroke,Sinusitis,0
+oracle_true_symptom_tabnet,Influenza,Sinusitis,0
+oracle_true_symptom_tabnet,Malaria,Sinusitis,0
+oracle_true_symptom_tabnet,Migraine,Sinusitis,0
+oracle_true_symptom_tabnet,Sinusitis,Sinusitis,59
+oracle_true_symptom_tabnet,Stroke,Sinusitis,0
+oracle_true_symptom_tabnet,Arthritis,Stroke,0
+oracle_true_symptom_tabnet,Common Cold,Stroke,0
+oracle_true_symptom_tabnet,Dengue,Stroke,0
+oracle_true_symptom_tabnet,Eczema,Stroke,0
+oracle_true_symptom_tabnet,Heart Attack,Stroke,0
+oracle_true_symptom_tabnet,Heat Stroke,Stroke,0
+oracle_true_symptom_tabnet,Influenza,Stroke,0
+oracle_true_symptom_tabnet,Malaria,Stroke,0
+oracle_true_symptom_tabnet,Migraine,Stroke,8
+oracle_true_symptom_tabnet,Sinusitis,Stroke,0
+oracle_true_symptom_tabnet,Stroke,Stroke,59
+cascade_xgb_prob_lr,Arthritis,Arthritis,4
+cascade_xgb_prob_lr,Common Cold,Arthritis,7
+cascade_xgb_prob_lr,Dengue,Arthritis,10
+cascade_xgb_prob_lr,Eczema,Arthritis,12
+cascade_xgb_prob_lr,Heart Attack,Arthritis,11
+cascade_xgb_prob_lr,Heat Stroke,Arthritis,8
+cascade_xgb_prob_lr,Influenza,Arthritis,11
+cascade_xgb_prob_lr,Malaria,Arthritis,8
+cascade_xgb_prob_lr,Migraine,Arthritis,8
+cascade_xgb_prob_lr,Sinusitis,Arthritis,6
+cascade_xgb_prob_lr,Stroke,Arthritis,6
+cascade_xgb_prob_lr,Arthritis,Common Cold,10
+cascade_xgb_prob_lr,Common Cold,Common Cold,8
+cascade_xgb_prob_lr,Dengue,Common Cold,6
+cascade_xgb_prob_lr,Eczema,Common Cold,5
+cascade_xgb_prob_lr,Heart Attack,Common Cold,10
+cascade_xgb_prob_lr,Heat Stroke,Common Cold,5
+cascade_xgb_prob_lr,Influenza,Common Cold,8
+cascade_xgb_prob_lr,Malaria,Common Cold,3
+cascade_xgb_prob_lr,Migraine,Common Cold,10
+cascade_xgb_prob_lr,Sinusitis,Common Cold,10
+cascade_xgb_prob_lr,Stroke,Common Cold,1
+cascade_xgb_prob_lr,Arthritis,Dengue,6
+cascade_xgb_prob_lr,Common Cold,Dengue,7
+cascade_xgb_prob_lr,Dengue,Dengue,6
+cascade_xgb_prob_lr,Eczema,Dengue,7
+cascade_xgb_prob_lr,Heart Attack,Dengue,9
+cascade_xgb_prob_lr,Heat Stroke,Dengue,7
+cascade_xgb_prob_lr,Influenza,Dengue,7
+cascade_xgb_prob_lr,Malaria,Dengue,7
+cascade_xgb_prob_lr,Migraine,Dengue,18
+cascade_xgb_prob_lr,Sinusitis,Dengue,7
+cascade_xgb_prob_lr,Stroke,Dengue,6
+cascade_xgb_prob_lr,Arthritis,Eczema,4
+cascade_xgb_prob_lr,Common Cold,Eczema,3
+cascade_xgb_prob_lr,Dengue,Eczema,5
+cascade_xgb_prob_lr,Eczema,Eczema,3
+cascade_xgb_prob_lr,Heart Attack,Eczema,4
+cascade_xgb_prob_lr,Heat Stroke,Eczema,6
+cascade_xgb_prob_lr,Influenza,Eczema,5
+cascade_xgb_prob_lr,Malaria,Eczema,4
+cascade_xgb_prob_lr,Migraine,Eczema,14
+cascade_xgb_prob_lr,Sinusitis,Eczema,4
+cascade_xgb_prob_lr,Stroke,Eczema,8
+cascade_xgb_prob_lr,Arthritis,Heart Attack,8
+cascade_xgb_prob_lr,Common Cold,Heart Attack,2
+cascade_xgb_prob_lr,Dengue,Heart Attack,3
+cascade_xgb_prob_lr,Eczema,Heart Attack,3
+cascade_xgb_prob_lr,Heart Attack,Heart Attack,43
+cascade_xgb_prob_lr,Heat Stroke,Heart Attack,5
+cascade_xgb_prob_lr,Influenza,Heart Attack,25
+cascade_xgb_prob_lr,Malaria,Heart Attack,5
+cascade_xgb_prob_lr,Migraine,Heart Attack,33
+cascade_xgb_prob_lr,Sinusitis,Heart Attack,3
+cascade_xgb_prob_lr,Stroke,Heart Attack,6
+cascade_xgb_prob_lr,Arthritis,Heat Stroke,6
+cascade_xgb_prob_lr,Common Cold,Heat Stroke,10
+cascade_xgb_prob_lr,Dengue,Heat Stroke,6
+cascade_xgb_prob_lr,Eczema,Heat Stroke,5
+cascade_xgb_prob_lr,Heart Attack,Heat Stroke,12
+cascade_xgb_prob_lr,Heat Stroke,Heat Stroke,5
+cascade_xgb_prob_lr,Influenza,Heat Stroke,11
+cascade_xgb_prob_lr,Malaria,Heat Stroke,9
+cascade_xgb_prob_lr,Migraine,Heat Stroke,9
+cascade_xgb_prob_lr,Sinusitis,Heat Stroke,10
+cascade_xgb_prob_lr,Stroke,Heat Stroke,9
+cascade_xgb_prob_lr,Arthritis,Influenza,8
+cascade_xgb_prob_lr,Common Cold,Influenza,3
+cascade_xgb_prob_lr,Dengue,Influenza,5
+cascade_xgb_prob_lr,Eczema,Influenza,4
+cascade_xgb_prob_lr,Heart Attack,Influenza,60
+cascade_xgb_prob_lr,Heat Stroke,Influenza,9
+cascade_xgb_prob_lr,Influenza,Influenza,30
+cascade_xgb_prob_lr,Malaria,Influenza,5
+cascade_xgb_prob_lr,Migraine,Influenza,30
+cascade_xgb_prob_lr,Sinusitis,Influenza,3
+cascade_xgb_prob_lr,Stroke,Influenza,5
+cascade_xgb_prob_lr,Arthritis,Malaria,7
+cascade_xgb_prob_lr,Common Cold,Malaria,7
+cascade_xgb_prob_lr,Dengue,Malaria,1
+cascade_xgb_prob_lr,Eczema,Malaria,7
+cascade_xgb_prob_lr,Heart Attack,Malaria,6
+cascade_xgb_prob_lr,Heat Stroke,Malaria,4
+cascade_xgb_prob_lr,Influenza,Malaria,4
+cascade_xgb_prob_lr,Malaria,Malaria,7
+cascade_xgb_prob_lr,Migraine,Malaria,11
+cascade_xgb_prob_lr,Sinusitis,Malaria,7
+cascade_xgb_prob_lr,Stroke,Malaria,13
+cascade_xgb_prob_lr,Arthritis,Migraine,3
+cascade_xgb_prob_lr,Common Cold,Migraine,8
+cascade_xgb_prob_lr,Dengue,Migraine,5
+cascade_xgb_prob_lr,Eczema,Migraine,6
+cascade_xgb_prob_lr,Heart Attack,Migraine,30
+cascade_xgb_prob_lr,Heat Stroke,Migraine,7
+cascade_xgb_prob_lr,Influenza,Migraine,12
+cascade_xgb_prob_lr,Malaria,Migraine,4
+cascade_xgb_prob_lr,Migraine,Migraine,31
+cascade_xgb_prob_lr,Sinusitis,Migraine,2
+cascade_xgb_prob_lr,Stroke,Migraine,3
+cascade_xgb_prob_lr,Arthritis,Sinusitis,3
+cascade_xgb_prob_lr,Common Cold,Sinusitis,2
+cascade_xgb_prob_lr,Dengue,Sinusitis,10
+cascade_xgb_prob_lr,Eczema,Sinusitis,4
+cascade_xgb_prob_lr,Heart Attack,Sinusitis,4
+cascade_xgb_prob_lr,Heat Stroke,Sinusitis,0
+cascade_xgb_prob_lr,Influenza,Sinusitis,6
+cascade_xgb_prob_lr,Malaria,Sinusitis,4
+cascade_xgb_prob_lr,Migraine,Sinusitis,8
+cascade_xgb_prob_lr,Sinusitis,Sinusitis,3
+cascade_xgb_prob_lr,Stroke,Sinusitis,1
+cascade_xgb_prob_lr,Arthritis,Stroke,2
+cascade_xgb_prob_lr,Common Cold,Stroke,5
+cascade_xgb_prob_lr,Dengue,Stroke,5
+cascade_xgb_prob_lr,Eczema,Stroke,7
+cascade_xgb_prob_lr,Heart Attack,Stroke,4
+cascade_xgb_prob_lr,Heat Stroke,Stroke,9
+cascade_xgb_prob_lr,Influenza,Stroke,7
+cascade_xgb_prob_lr,Malaria,Stroke,8
+cascade_xgb_prob_lr,Migraine,Stroke,7
+cascade_xgb_prob_lr,Sinusitis,Stroke,5
+cascade_xgb_prob_lr,Stroke,Stroke,4
+cascade_xgb_prob_rf,Arthritis,Arthritis,2
+cascade_xgb_prob_rf,Common Cold,Arthritis,5
+cascade_xgb_prob_rf,Dengue,Arthritis,5
+cascade_xgb_prob_rf,Eczema,Arthritis,3
+cascade_xgb_prob_rf,Heart Attack,Arthritis,5
+cascade_xgb_prob_rf,Heat Stroke,Arthritis,5
+cascade_xgb_prob_rf,Influenza,Arthritis,4
+cascade_xgb_prob_rf,Malaria,Arthritis,3
+cascade_xgb_prob_rf,Migraine,Arthritis,3
+cascade_xgb_prob_rf,Sinusitis,Arthritis,1
+cascade_xgb_prob_rf,Stroke,Arthritis,2
+cascade_xgb_prob_rf,Arthritis,Common Cold,4
+cascade_xgb_prob_rf,Common Cold,Common Cold,8
+cascade_xgb_prob_rf,Dengue,Common Cold,8
+cascade_xgb_prob_rf,Eczema,Common Cold,5
+cascade_xgb_prob_rf,Heart Attack,Common Cold,6
+cascade_xgb_prob_rf,Heat Stroke,Common Cold,6
+cascade_xgb_prob_rf,Influenza,Common Cold,7
+cascade_xgb_prob_rf,Malaria,Common Cold,7
+cascade_xgb_prob_rf,Migraine,Common Cold,6
+cascade_xgb_prob_rf,Sinusitis,Common Cold,13
+cascade_xgb_prob_rf,Stroke,Common Cold,6
+cascade_xgb_prob_rf,Arthritis,Dengue,4
+cascade_xgb_prob_rf,Common Cold,Dengue,7
+cascade_xgb_prob_rf,Dengue,Dengue,5
+cascade_xgb_prob_rf,Eczema,Dengue,7
+cascade_xgb_prob_rf,Heart Attack,Dengue,10
+cascade_xgb_prob_rf,Heat Stroke,Dengue,3
+cascade_xgb_prob_rf,Influenza,Dengue,4
+cascade_xgb_prob_rf,Malaria,Dengue,6
+cascade_xgb_prob_rf,Migraine,Dengue,4
+cascade_xgb_prob_rf,Sinusitis,Dengue,6
+cascade_xgb_prob_rf,Stroke,Dengue,8
+cascade_xgb_prob_rf,Arthritis,Eczema,9
+cascade_xgb_prob_rf,Common Cold,Eczema,13
+cascade_xgb_prob_rf,Dengue,Eczema,8
+cascade_xgb_prob_rf,Eczema,Eczema,8
+cascade_xgb_prob_rf,Heart Attack,Eczema,8
+cascade_xgb_prob_rf,Heat Stroke,Eczema,11
+cascade_xgb_prob_rf,Influenza,Eczema,10
+cascade_xgb_prob_rf,Malaria,Eczema,12
+cascade_xgb_prob_rf,Migraine,Eczema,13
+cascade_xgb_prob_rf,Sinusitis,Eczema,12
+cascade_xgb_prob_rf,Stroke,Eczema,6
+cascade_xgb_prob_rf,Arthritis,Heart Attack,12
+cascade_xgb_prob_rf,Common Cold,Heart Attack,7
+cascade_xgb_prob_rf,Dengue,Heart Attack,10
+cascade_xgb_prob_rf,Eczema,Heart Attack,8
+cascade_xgb_prob_rf,Heart Attack,Heart Attack,56
+cascade_xgb_prob_rf,Heat Stroke,Heart Attack,11
+cascade_xgb_prob_rf,Influenza,Heart Attack,30
+cascade_xgb_prob_rf,Malaria,Heart Attack,11
+cascade_xgb_prob_rf,Migraine,Heart Attack,47
+cascade_xgb_prob_rf,Sinusitis,Heart Attack,8
+cascade_xgb_prob_rf,Stroke,Heart Attack,10
+cascade_xgb_prob_rf,Arthritis,Heat Stroke,2
+cascade_xgb_prob_rf,Common Cold,Heat Stroke,1
+cascade_xgb_prob_rf,Dengue,Heat Stroke,2
+cascade_xgb_prob_rf,Eczema,Heat Stroke,2
+cascade_xgb_prob_rf,Heart Attack,Heat Stroke,8
+cascade_xgb_prob_rf,Heat Stroke,Heat Stroke,1
+cascade_xgb_prob_rf,Influenza,Heat Stroke,8
+cascade_xgb_prob_rf,Malaria,Heat Stroke,2
+cascade_xgb_prob_rf,Migraine,Heat Stroke,6
+cascade_xgb_prob_rf,Sinusitis,Heat Stroke,2
+cascade_xgb_prob_rf,Stroke,Heat Stroke,1
+cascade_xgb_prob_rf,Arthritis,Influenza,4
+cascade_xgb_prob_rf,Common Cold,Influenza,2
+cascade_xgb_prob_rf,Dengue,Influenza,3
+cascade_xgb_prob_rf,Eczema,Influenza,2
+cascade_xgb_prob_rf,Heart Attack,Influenza,46
+cascade_xgb_prob_rf,Heat Stroke,Influenza,6
+cascade_xgb_prob_rf,Influenza,Influenza,17
+cascade_xgb_prob_rf,Malaria,Influenza,4
+cascade_xgb_prob_rf,Migraine,Influenza,12
+cascade_xgb_prob_rf,Sinusitis,Influenza,3
+cascade_xgb_prob_rf,Stroke,Influenza,1
+cascade_xgb_prob_rf,Arthritis,Malaria,5
+cascade_xgb_prob_rf,Common Cold,Malaria,3
+cascade_xgb_prob_rf,Dengue,Malaria,5
+cascade_xgb_prob_rf,Eczema,Malaria,8
+cascade_xgb_prob_rf,Heart Attack,Malaria,10
+cascade_xgb_prob_rf,Heat Stroke,Malaria,2
+cascade_xgb_prob_rf,Influenza,Malaria,8
+cascade_xgb_prob_rf,Malaria,Malaria,4
+cascade_xgb_prob_rf,Migraine,Malaria,9
+cascade_xgb_prob_rf,Sinusitis,Malaria,7
+cascade_xgb_prob_rf,Stroke,Malaria,9
+cascade_xgb_prob_rf,Arthritis,Migraine,10
+cascade_xgb_prob_rf,Common Cold,Migraine,9
+cascade_xgb_prob_rf,Dengue,Migraine,13
+cascade_xgb_prob_rf,Eczema,Migraine,13
+cascade_xgb_prob_rf,Heart Attack,Migraine,37
+cascade_xgb_prob_rf,Heat Stroke,Migraine,16
+cascade_xgb_prob_rf,Influenza,Migraine,35
+cascade_xgb_prob_rf,Malaria,Migraine,11
+cascade_xgb_prob_rf,Migraine,Migraine,68
+cascade_xgb_prob_rf,Sinusitis,Migraine,4
+cascade_xgb_prob_rf,Stroke,Migraine,13
+cascade_xgb_prob_rf,Arthritis,Sinusitis,3
+cascade_xgb_prob_rf,Common Cold,Sinusitis,7
+cascade_xgb_prob_rf,Dengue,Sinusitis,2
+cascade_xgb_prob_rf,Eczema,Sinusitis,3
+cascade_xgb_prob_rf,Heart Attack,Sinusitis,1
+cascade_xgb_prob_rf,Heat Stroke,Sinusitis,2
+cascade_xgb_prob_rf,Influenza,Sinusitis,1
+cascade_xgb_prob_rf,Malaria,Sinusitis,2
+cascade_xgb_prob_rf,Migraine,Sinusitis,3
+cascade_xgb_prob_rf,Sinusitis,Sinusitis,1
+cascade_xgb_prob_rf,Stroke,Sinusitis,0
+cascade_xgb_prob_rf,Arthritis,Stroke,6
+cascade_xgb_prob_rf,Common Cold,Stroke,0
+cascade_xgb_prob_rf,Dengue,Stroke,1
+cascade_xgb_prob_rf,Eczema,Stroke,4
+cascade_xgb_prob_rf,Heart Attack,Stroke,6
+cascade_xgb_prob_rf,Heat Stroke,Stroke,2
+cascade_xgb_prob_rf,Influenza,Stroke,2
+cascade_xgb_prob_rf,Malaria,Stroke,2
+cascade_xgb_prob_rf,Migraine,Stroke,8
+cascade_xgb_prob_rf,Sinusitis,Stroke,3
+cascade_xgb_prob_rf,Stroke,Stroke,6
+cascade_xgb_prob_mlp,Arthritis,Arthritis,4
+cascade_xgb_prob_mlp,Common Cold,Arthritis,3
+cascade_xgb_prob_mlp,Dengue,Arthritis,2
+cascade_xgb_prob_mlp,Eczema,Arthritis,3
+cascade_xgb_prob_mlp,Heart Attack,Arthritis,0
+cascade_xgb_prob_mlp,Heat Stroke,Arthritis,4
+cascade_xgb_prob_mlp,Influenza,Arthritis,8
+cascade_xgb_prob_mlp,Malaria,Arthritis,1
+cascade_xgb_prob_mlp,Migraine,Arthritis,2
+cascade_xgb_prob_mlp,Sinusitis,Arthritis,4
+cascade_xgb_prob_mlp,Stroke,Arthritis,4
+cascade_xgb_prob_mlp,Arthritis,Common Cold,3
+cascade_xgb_prob_mlp,Common Cold,Common Cold,3
+cascade_xgb_prob_mlp,Dengue,Common Cold,4
+cascade_xgb_prob_mlp,Eczema,Common Cold,6
+cascade_xgb_prob_mlp,Heart Attack,Common Cold,5
+cascade_xgb_prob_mlp,Heat Stroke,Common Cold,3
+cascade_xgb_prob_mlp,Influenza,Common Cold,7
+cascade_xgb_prob_mlp,Malaria,Common Cold,4
+cascade_xgb_prob_mlp,Migraine,Common Cold,5
+cascade_xgb_prob_mlp,Sinusitis,Common Cold,3
+cascade_xgb_prob_mlp,Stroke,Common Cold,0
+cascade_xgb_prob_mlp,Arthritis,Dengue,3
+cascade_xgb_prob_mlp,Common Cold,Dengue,5
+cascade_xgb_prob_mlp,Dengue,Dengue,3
+cascade_xgb_prob_mlp,Eczema,Dengue,9
+cascade_xgb_prob_mlp,Heart Attack,Dengue,6
+cascade_xgb_prob_mlp,Heat Stroke,Dengue,2
+cascade_xgb_prob_mlp,Influenza,Dengue,8
+cascade_xgb_prob_mlp,Malaria,Dengue,7
+cascade_xgb_prob_mlp,Migraine,Dengue,7
+cascade_xgb_prob_mlp,Sinusitis,Dengue,7
+cascade_xgb_prob_mlp,Stroke,Dengue,3
+cascade_xgb_prob_mlp,Arthritis,Eczema,2
+cascade_xgb_prob_mlp,Common Cold,Eczema,3
+cascade_xgb_prob_mlp,Dengue,Eczema,5
+cascade_xgb_prob_mlp,Eczema,Eczema,3
+cascade_xgb_prob_mlp,Heart Attack,Eczema,4
+cascade_xgb_prob_mlp,Heat Stroke,Eczema,4
+cascade_xgb_prob_mlp,Influenza,Eczema,4
+cascade_xgb_prob_mlp,Malaria,Eczema,2
+cascade_xgb_prob_mlp,Migraine,Eczema,3
+cascade_xgb_prob_mlp,Sinusitis,Eczema,8
+cascade_xgb_prob_mlp,Stroke,Eczema,3
+cascade_xgb_prob_mlp,Arthritis,Heart Attack,12
+cascade_xgb_prob_mlp,Common Cold,Heart Attack,14
+cascade_xgb_prob_mlp,Dengue,Heart Attack,12
+cascade_xgb_prob_mlp,Eczema,Heart Attack,5
+cascade_xgb_prob_mlp,Heart Attack,Heart Attack,61
+cascade_xgb_prob_mlp,Heat Stroke,Heart Attack,11
+cascade_xgb_prob_mlp,Influenza,Heart Attack,16
+cascade_xgb_prob_mlp,Malaria,Heart Attack,13
+cascade_xgb_prob_mlp,Migraine,Heart Attack,46
+cascade_xgb_prob_mlp,Sinusitis,Heart Attack,10
+cascade_xgb_prob_mlp,Stroke,Heart Attack,14
+cascade_xgb_prob_mlp,Arthritis,Heat Stroke,2
+cascade_xgb_prob_mlp,Common Cold,Heat Stroke,1
+cascade_xgb_prob_mlp,Dengue,Heat Stroke,4
+cascade_xgb_prob_mlp,Eczema,Heat Stroke,3
+cascade_xgb_prob_mlp,Heart Attack,Heat Stroke,11
+cascade_xgb_prob_mlp,Heat Stroke,Heat Stroke,3
+cascade_xgb_prob_mlp,Influenza,Heat Stroke,4
+cascade_xgb_prob_mlp,Malaria,Heat Stroke,2
+cascade_xgb_prob_mlp,Migraine,Heat Stroke,4
+cascade_xgb_prob_mlp,Sinusitis,Heat Stroke,2
+cascade_xgb_prob_mlp,Stroke,Heat Stroke,4
+cascade_xgb_prob_mlp,Arthritis,Influenza,10
+cascade_xgb_prob_mlp,Common Cold,Influenza,8
+cascade_xgb_prob_mlp,Dengue,Influenza,6
+cascade_xgb_prob_mlp,Eczema,Influenza,7
+cascade_xgb_prob_mlp,Heart Attack,Influenza,37
+cascade_xgb_prob_mlp,Heat Stroke,Influenza,9
+cascade_xgb_prob_mlp,Influenza,Influenza,24
+cascade_xgb_prob_mlp,Malaria,Influenza,11
+cascade_xgb_prob_mlp,Migraine,Influenza,28
+cascade_xgb_prob_mlp,Sinusitis,Influenza,8
+cascade_xgb_prob_mlp,Stroke,Influenza,6
+cascade_xgb_prob_mlp,Arthritis,Malaria,1
+cascade_xgb_prob_mlp,Common Cold,Malaria,6
+cascade_xgb_prob_mlp,Dengue,Malaria,5
+cascade_xgb_prob_mlp,Eczema,Malaria,8
+cascade_xgb_prob_mlp,Heart Attack,Malaria,9
+cascade_xgb_prob_mlp,Heat Stroke,Malaria,1
+cascade_xgb_prob_mlp,Influenza,Malaria,3
+cascade_xgb_prob_mlp,Malaria,Malaria,5
+cascade_xgb_prob_mlp,Migraine,Malaria,4
+cascade_xgb_prob_mlp,Sinusitis,Malaria,5
+cascade_xgb_prob_mlp,Stroke,Malaria,6
+cascade_xgb_prob_mlp,Arthritis,Migraine,17
+cascade_xgb_prob_mlp,Common Cold,Migraine,14
+cascade_xgb_prob_mlp,Dengue,Migraine,15
+cascade_xgb_prob_mlp,Eczema,Migraine,16
+cascade_xgb_prob_mlp,Heart Attack,Migraine,57
+cascade_xgb_prob_mlp,Heat Stroke,Migraine,19
+cascade_xgb_prob_mlp,Influenza,Migraine,50
+cascade_xgb_prob_mlp,Malaria,Migraine,14
+cascade_xgb_prob_mlp,Migraine,Migraine,75
+cascade_xgb_prob_mlp,Sinusitis,Migraine,7
+cascade_xgb_prob_mlp,Stroke,Migraine,16
+cascade_xgb_prob_mlp,Arthritis,Sinusitis,2
+cascade_xgb_prob_mlp,Common Cold,Sinusitis,1
+cascade_xgb_prob_mlp,Dengue,Sinusitis,3
+cascade_xgb_prob_mlp,Eczema,Sinusitis,1
+cascade_xgb_prob_mlp,Heart Attack,Sinusitis,0
+cascade_xgb_prob_mlp,Heat Stroke,Sinusitis,1
+cascade_xgb_prob_mlp,Influenza,Sinusitis,0
+cascade_xgb_prob_mlp,Malaria,Sinusitis,0
+cascade_xgb_prob_mlp,Migraine,Sinusitis,0
+cascade_xgb_prob_mlp,Sinusitis,Sinusitis,2
+cascade_xgb_prob_mlp,Stroke,Sinusitis,2
+cascade_xgb_prob_mlp,Arthritis,Stroke,5
+cascade_xgb_prob_mlp,Common Cold,Stroke,4
+cascade_xgb_prob_mlp,Dengue,Stroke,3
+cascade_xgb_prob_mlp,Eczema,Stroke,2
+cascade_xgb_prob_mlp,Heart Attack,Stroke,3
+cascade_xgb_prob_mlp,Heat Stroke,Stroke,8
+cascade_xgb_prob_mlp,Influenza,Stroke,2
+cascade_xgb_prob_mlp,Malaria,Stroke,5
+cascade_xgb_prob_mlp,Migraine,Stroke,5
+cascade_xgb_prob_mlp,Sinusitis,Stroke,4
+cascade_xgb_prob_mlp,Stroke,Stroke,4
+cascade_xgb_prob_xgb,Arthritis,Arthritis,3
+cascade_xgb_prob_xgb,Common Cold,Arthritis,3
+cascade_xgb_prob_xgb,Dengue,Arthritis,2
+cascade_xgb_prob_xgb,Eczema,Arthritis,3
+cascade_xgb_prob_xgb,Heart Attack,Arthritis,1
+cascade_xgb_prob_xgb,Heat Stroke,Arthritis,4
+cascade_xgb_prob_xgb,Influenza,Arthritis,2
+cascade_xgb_prob_xgb,Malaria,Arthritis,1
+cascade_xgb_prob_xgb,Migraine,Arthritis,2
+cascade_xgb_prob_xgb,Sinusitis,Arthritis,4
+cascade_xgb_prob_xgb,Stroke,Arthritis,1
+cascade_xgb_prob_xgb,Arthritis,Common Cold,6
+cascade_xgb_prob_xgb,Common Cold,Common Cold,6
+cascade_xgb_prob_xgb,Dengue,Common Cold,6
+cascade_xgb_prob_xgb,Eczema,Common Cold,3
+cascade_xgb_prob_xgb,Heart Attack,Common Cold,6
+cascade_xgb_prob_xgb,Heat Stroke,Common Cold,6
+cascade_xgb_prob_xgb,Influenza,Common Cold,7
+cascade_xgb_prob_xgb,Malaria,Common Cold,5
+cascade_xgb_prob_xgb,Migraine,Common Cold,4
+cascade_xgb_prob_xgb,Sinusitis,Common Cold,9
+cascade_xgb_prob_xgb,Stroke,Common Cold,2
+cascade_xgb_prob_xgb,Arthritis,Dengue,1
+cascade_xgb_prob_xgb,Common Cold,Dengue,4
+cascade_xgb_prob_xgb,Dengue,Dengue,5
+cascade_xgb_prob_xgb,Eczema,Dengue,4
+cascade_xgb_prob_xgb,Heart Attack,Dengue,4
+cascade_xgb_prob_xgb,Heat Stroke,Dengue,3
+cascade_xgb_prob_xgb,Influenza,Dengue,7
+cascade_xgb_prob_xgb,Malaria,Dengue,4
+cascade_xgb_prob_xgb,Migraine,Dengue,3
+cascade_xgb_prob_xgb,Sinusitis,Dengue,6
+cascade_xgb_prob_xgb,Stroke,Dengue,7
+cascade_xgb_prob_xgb,Arthritis,Eczema,3
+cascade_xgb_prob_xgb,Common Cold,Eczema,6
+cascade_xgb_prob_xgb,Dengue,Eczema,5
+cascade_xgb_prob_xgb,Eczema,Eczema,5
+cascade_xgb_prob_xgb,Heart Attack,Eczema,8
+cascade_xgb_prob_xgb,Heat Stroke,Eczema,3
+cascade_xgb_prob_xgb,Influenza,Eczema,9
+cascade_xgb_prob_xgb,Malaria,Eczema,6
+cascade_xgb_prob_xgb,Migraine,Eczema,6
+cascade_xgb_prob_xgb,Sinusitis,Eczema,9
+cascade_xgb_prob_xgb,Stroke,Eczema,4
+cascade_xgb_prob_xgb,Arthritis,Heart Attack,15
+cascade_xgb_prob_xgb,Common Cold,Heart Attack,7
+cascade_xgb_prob_xgb,Dengue,Heart Attack,14
+cascade_xgb_prob_xgb,Eczema,Heart Attack,10
+cascade_xgb_prob_xgb,Heart Attack,Heart Attack,51
+cascade_xgb_prob_xgb,Heat Stroke,Heart Attack,12
+cascade_xgb_prob_xgb,Influenza,Heart Attack,25
+cascade_xgb_prob_xgb,Malaria,Heart Attack,19
+cascade_xgb_prob_xgb,Migraine,Heart Attack,64
+cascade_xgb_prob_xgb,Sinusitis,Heart Attack,9
+cascade_xgb_prob_xgb,Stroke,Heart Attack,11
+cascade_xgb_prob_xgb,Arthritis,Heat Stroke,2
+cascade_xgb_prob_xgb,Common Cold,Heat Stroke,3
+cascade_xgb_prob_xgb,Dengue,Heat Stroke,1
+cascade_xgb_prob_xgb,Eczema,Heat Stroke,0
+cascade_xgb_prob_xgb,Heart Attack,Heat Stroke,5
+cascade_xgb_prob_xgb,Heat Stroke,Heat Stroke,1
+cascade_xgb_prob_xgb,Influenza,Heat Stroke,6
+cascade_xgb_prob_xgb,Malaria,Heat Stroke,1
+cascade_xgb_prob_xgb,Migraine,Heat Stroke,8
+cascade_xgb_prob_xgb,Sinusitis,Heat Stroke,1
+cascade_xgb_prob_xgb,Stroke,Heat Stroke,1
+cascade_xgb_prob_xgb,Arthritis,Influenza,8
+cascade_xgb_prob_xgb,Common Cold,Influenza,6
+cascade_xgb_prob_xgb,Dengue,Influenza,6
+cascade_xgb_prob_xgb,Eczema,Influenza,5
+cascade_xgb_prob_xgb,Heart Attack,Influenza,29
+cascade_xgb_prob_xgb,Heat Stroke,Influenza,7
+cascade_xgb_prob_xgb,Influenza,Influenza,13
+cascade_xgb_prob_xgb,Malaria,Influenza,6
+cascade_xgb_prob_xgb,Migraine,Influenza,11
+cascade_xgb_prob_xgb,Sinusitis,Influenza,6
+cascade_xgb_prob_xgb,Stroke,Influenza,5
+cascade_xgb_prob_xgb,Arthritis,Malaria,4
+cascade_xgb_prob_xgb,Common Cold,Malaria,6
+cascade_xgb_prob_xgb,Dengue,Malaria,4
+cascade_xgb_prob_xgb,Eczema,Malaria,7
+cascade_xgb_prob_xgb,Heart Attack,Malaria,11
+cascade_xgb_prob_xgb,Heat Stroke,Malaria,3
+cascade_xgb_prob_xgb,Influenza,Malaria,5
+cascade_xgb_prob_xgb,Malaria,Malaria,2
+cascade_xgb_prob_xgb,Migraine,Malaria,5
+cascade_xgb_prob_xgb,Sinusitis,Malaria,2
+cascade_xgb_prob_xgb,Stroke,Malaria,6
+cascade_xgb_prob_xgb,Arthritis,Migraine,17
+cascade_xgb_prob_xgb,Common Cold,Migraine,16
+cascade_xgb_prob_xgb,Dengue,Migraine,17
+cascade_xgb_prob_xgb,Eczema,Migraine,18
+cascade_xgb_prob_xgb,Heart Attack,Migraine,74
+cascade_xgb_prob_xgb,Heat Stroke,Migraine,23
+cascade_xgb_prob_xgb,Influenza,Migraine,51
+cascade_xgb_prob_xgb,Malaria,Migraine,17
+cascade_xgb_prob_xgb,Migraine,Migraine,70
+cascade_xgb_prob_xgb,Sinusitis,Migraine,11
+cascade_xgb_prob_xgb,Stroke,Migraine,19
+cascade_xgb_prob_xgb,Arthritis,Sinusitis,2
+cascade_xgb_prob_xgb,Common Cold,Sinusitis,4
+cascade_xgb_prob_xgb,Dengue,Sinusitis,1
+cascade_xgb_prob_xgb,Eczema,Sinusitis,4
+cascade_xgb_prob_xgb,Heart Attack,Sinusitis,2
+cascade_xgb_prob_xgb,Heat Stroke,Sinusitis,0
+cascade_xgb_prob_xgb,Influenza,Sinusitis,1
+cascade_xgb_prob_xgb,Malaria,Sinusitis,1
+cascade_xgb_prob_xgb,Migraine,Sinusitis,1
+cascade_xgb_prob_xgb,Sinusitis,Sinusitis,1
+cascade_xgb_prob_xgb,Stroke,Sinusitis,3
+cascade_xgb_prob_xgb,Arthritis,Stroke,0
+cascade_xgb_prob_xgb,Common Cold,Stroke,1
+cascade_xgb_prob_xgb,Dengue,Stroke,1
+cascade_xgb_prob_xgb,Eczema,Stroke,4
+cascade_xgb_prob_xgb,Heart Attack,Stroke,2
+cascade_xgb_prob_xgb,Heat Stroke,Stroke,3
+cascade_xgb_prob_xgb,Influenza,Stroke,0
+cascade_xgb_prob_xgb,Malaria,Stroke,2
+cascade_xgb_prob_xgb,Migraine,Stroke,5
+cascade_xgb_prob_xgb,Sinusitis,Stroke,2
+cascade_xgb_prob_xgb,Stroke,Stroke,3
+direct_xgb_demographic,Arthritis,Arthritis,1
+direct_xgb_demographic,Common Cold,Arthritis,4
+direct_xgb_demographic,Dengue,Arthritis,4
+direct_xgb_demographic,Eczema,Arthritis,2
+direct_xgb_demographic,Heart Attack,Arthritis,0
+direct_xgb_demographic,Heat Stroke,Arthritis,3
+direct_xgb_demographic,Influenza,Arthritis,3
+direct_xgb_demographic,Malaria,Arthritis,2
+direct_xgb_demographic,Migraine,Arthritis,6
+direct_xgb_demographic,Sinusitis,Arthritis,4
+direct_xgb_demographic,Stroke,Arthritis,4
+direct_xgb_demographic,Arthritis,Common Cold,3
+direct_xgb_demographic,Common Cold,Common Cold,1
+direct_xgb_demographic,Dengue,Common Cold,2
+direct_xgb_demographic,Eczema,Common Cold,1
+direct_xgb_demographic,Heart Attack,Common Cold,5
+direct_xgb_demographic,Heat Stroke,Common Cold,3
+direct_xgb_demographic,Influenza,Common Cold,6
+direct_xgb_demographic,Malaria,Common Cold,3
+direct_xgb_demographic,Migraine,Common Cold,5
+direct_xgb_demographic,Sinusitis,Common Cold,6
+direct_xgb_demographic,Stroke,Common Cold,0
+direct_xgb_demographic,Arthritis,Dengue,5
+direct_xgb_demographic,Common Cold,Dengue,3
+direct_xgb_demographic,Dengue,Dengue,7
+direct_xgb_demographic,Eczema,Dengue,4
+direct_xgb_demographic,Heart Attack,Dengue,2
+direct_xgb_demographic,Heat Stroke,Dengue,4
+direct_xgb_demographic,Influenza,Dengue,6
+direct_xgb_demographic,Malaria,Dengue,2
+direct_xgb_demographic,Migraine,Dengue,4
+direct_xgb_demographic,Sinusitis,Dengue,3
+direct_xgb_demographic,Stroke,Dengue,7
+direct_xgb_demographic,Arthritis,Eczema,6
+direct_xgb_demographic,Common Cold,Eczema,4
+direct_xgb_demographic,Dengue,Eczema,2
+direct_xgb_demographic,Eczema,Eczema,3
+direct_xgb_demographic,Heart Attack,Eczema,7
+direct_xgb_demographic,Heat Stroke,Eczema,5
+direct_xgb_demographic,Influenza,Eczema,4
+direct_xgb_demographic,Malaria,Eczema,4
+direct_xgb_demographic,Migraine,Eczema,3
+direct_xgb_demographic,Sinusitis,Eczema,5
+direct_xgb_demographic,Stroke,Eczema,4
+direct_xgb_demographic,Arthritis,Heart Attack,10
+direct_xgb_demographic,Common Cold,Heart Attack,11
+direct_xgb_demographic,Dengue,Heart Attack,10
+direct_xgb_demographic,Eczema,Heart Attack,9
+direct_xgb_demographic,Heart Attack,Heart Attack,132
+direct_xgb_demographic,Heat Stroke,Heart Attack,14
+direct_xgb_demographic,Influenza,Heart Attack,33
+direct_xgb_demographic,Malaria,Heart Attack,13
+direct_xgb_demographic,Migraine,Heart Attack,20
+direct_xgb_demographic,Sinusitis,Heart Attack,10
+direct_xgb_demographic,Stroke,Heart Attack,11
+direct_xgb_demographic,Arthritis,Heat Stroke,3
+direct_xgb_demographic,Common Cold,Heat Stroke,2
+direct_xgb_demographic,Dengue,Heat Stroke,1
+direct_xgb_demographic,Eczema,Heat Stroke,1
+direct_xgb_demographic,Heart Attack,Heat Stroke,4
+direct_xgb_demographic,Heat Stroke,Heat Stroke,4
+direct_xgb_demographic,Influenza,Heat Stroke,1
+direct_xgb_demographic,Malaria,Heat Stroke,4
+direct_xgb_demographic,Migraine,Heat Stroke,3
+direct_xgb_demographic,Sinusitis,Heat Stroke,4
+direct_xgb_demographic,Stroke,Heat Stroke,3
+direct_xgb_demographic,Arthritis,Influenza,5
+direct_xgb_demographic,Common Cold,Influenza,6
+direct_xgb_demographic,Dengue,Influenza,8
+direct_xgb_demographic,Eczema,Influenza,11
+direct_xgb_demographic,Heart Attack,Influenza,13
+direct_xgb_demographic,Heat Stroke,Influenza,4
+direct_xgb_demographic,Influenza,Influenza,19
+direct_xgb_demographic,Malaria,Influenza,8
+direct_xgb_demographic,Migraine,Influenza,22
+direct_xgb_demographic,Sinusitis,Influenza,6
+direct_xgb_demographic,Stroke,Influenza,6
+direct_xgb_demographic,Arthritis,Malaria,5
+direct_xgb_demographic,Common Cold,Malaria,7
+direct_xgb_demographic,Dengue,Malaria,0
+direct_xgb_demographic,Eczema,Malaria,4
+direct_xgb_demographic,Heart Attack,Malaria,2
+direct_xgb_demographic,Heat Stroke,Malaria,2
+direct_xgb_demographic,Influenza,Malaria,6
+direct_xgb_demographic,Malaria,Malaria,5
+direct_xgb_demographic,Migraine,Malaria,1
+direct_xgb_demographic,Sinusitis,Malaria,4
+direct_xgb_demographic,Stroke,Malaria,5
+direct_xgb_demographic,Arthritis,Migraine,14
+direct_xgb_demographic,Common Cold,Migraine,17
+direct_xgb_demographic,Dengue,Migraine,15
+direct_xgb_demographic,Eczema,Migraine,17
+direct_xgb_demographic,Heart Attack,Migraine,20
+direct_xgb_demographic,Heat Stroke,Migraine,19
+direct_xgb_demographic,Influenza,Migraine,41
+direct_xgb_demographic,Malaria,Migraine,21
+direct_xgb_demographic,Migraine,Migraine,106
+direct_xgb_demographic,Sinusitis,Migraine,10
+direct_xgb_demographic,Stroke,Migraine,17
+direct_xgb_demographic,Arthritis,Sinusitis,5
+direct_xgb_demographic,Common Cold,Sinusitis,3
+direct_xgb_demographic,Dengue,Sinusitis,6
+direct_xgb_demographic,Eczema,Sinusitis,3
+direct_xgb_demographic,Heart Attack,Sinusitis,4
+direct_xgb_demographic,Heat Stroke,Sinusitis,4
+direct_xgb_demographic,Influenza,Sinusitis,4
+direct_xgb_demographic,Malaria,Sinusitis,1
+direct_xgb_demographic,Migraine,Sinusitis,5
+direct_xgb_demographic,Sinusitis,Sinusitis,2
+direct_xgb_demographic,Stroke,Sinusitis,2
+direct_xgb_demographic,Arthritis,Stroke,4
+direct_xgb_demographic,Common Cold,Stroke,4
+direct_xgb_demographic,Dengue,Stroke,7
+direct_xgb_demographic,Eczema,Stroke,8
+direct_xgb_demographic,Heart Attack,Stroke,4
+direct_xgb_demographic,Heat Stroke,Stroke,3
+direct_xgb_demographic,Influenza,Stroke,3
+direct_xgb_demographic,Malaria,Stroke,1
+direct_xgb_demographic,Migraine,Stroke,4
+direct_xgb_demographic,Sinusitis,Stroke,6
+direct_xgb_demographic,Stroke,Stroke,3
+direct_xgb_history,Arthritis,Arthritis,2
+direct_xgb_history,Common Cold,Arthritis,7
+direct_xgb_history,Dengue,Arthritis,6
+direct_xgb_history,Eczema,Arthritis,3
+direct_xgb_history,Heart Attack,Arthritis,1
+direct_xgb_history,Heat Stroke,Arthritis,5
+direct_xgb_history,Influenza,Arthritis,4
+direct_xgb_history,Malaria,Arthritis,4
+direct_xgb_history,Migraine,Arthritis,9
+direct_xgb_history,Sinusitis,Arthritis,3
+direct_xgb_history,Stroke,Arthritis,2
+direct_xgb_history,Arthritis,Common Cold,7
+direct_xgb_history,Common Cold,Common Cold,4
+direct_xgb_history,Dengue,Common Cold,3
+direct_xgb_history,Eczema,Common Cold,3
+direct_xgb_history,Heart Attack,Common Cold,5
+direct_xgb_history,Heat Stroke,Common Cold,1
+direct_xgb_history,Influenza,Common Cold,5
+direct_xgb_history,Malaria,Common Cold,2
+direct_xgb_history,Migraine,Common Cold,7
+direct_xgb_history,Sinusitis,Common Cold,1
+direct_xgb_history,Stroke,Common Cold,2
+direct_xgb_history,Arthritis,Dengue,4
+direct_xgb_history,Common Cold,Dengue,4
+direct_xgb_history,Dengue,Dengue,10
+direct_xgb_history,Eczema,Dengue,4
+direct_xgb_history,Heart Attack,Dengue,6
+direct_xgb_history,Heat Stroke,Dengue,4
+direct_xgb_history,Influenza,Dengue,8
+direct_xgb_history,Malaria,Dengue,4
+direct_xgb_history,Migraine,Dengue,5
+direct_xgb_history,Sinusitis,Dengue,1
+direct_xgb_history,Stroke,Dengue,9
+direct_xgb_history,Arthritis,Eczema,6
+direct_xgb_history,Common Cold,Eczema,6
+direct_xgb_history,Dengue,Eczema,4
+direct_xgb_history,Eczema,Eczema,6
+direct_xgb_history,Heart Attack,Eczema,8
+direct_xgb_history,Heat Stroke,Eczema,6
+direct_xgb_history,Influenza,Eczema,4
+direct_xgb_history,Malaria,Eczema,6
+direct_xgb_history,Migraine,Eczema,4
+direct_xgb_history,Sinusitis,Eczema,1
+direct_xgb_history,Stroke,Eczema,7
+direct_xgb_history,Arthritis,Heart Attack,2
+direct_xgb_history,Common Cold,Heart Attack,4
+direct_xgb_history,Dengue,Heart Attack,3
+direct_xgb_history,Eczema,Heart Attack,4
+direct_xgb_history,Heart Attack,Heart Attack,140
+direct_xgb_history,Heat Stroke,Heart Attack,2
+direct_xgb_history,Influenza,Heart Attack,0
+direct_xgb_history,Malaria,Heart Attack,2
+direct_xgb_history,Migraine,Heart Attack,3
+direct_xgb_history,Sinusitis,Heart Attack,4
+direct_xgb_history,Stroke,Heart Attack,5
+direct_xgb_history,Arthritis,Heat Stroke,3
+direct_xgb_history,Common Cold,Heat Stroke,6
+direct_xgb_history,Dengue,Heat Stroke,2
+direct_xgb_history,Eczema,Heat Stroke,1
+direct_xgb_history,Heart Attack,Heat Stroke,5
+direct_xgb_history,Heat Stroke,Heat Stroke,5
+direct_xgb_history,Influenza,Heat Stroke,6
+direct_xgb_history,Malaria,Heat Stroke,5
+direct_xgb_history,Migraine,Heat Stroke,3
+direct_xgb_history,Sinusitis,Heat Stroke,1
+direct_xgb_history,Stroke,Heat Stroke,5
+direct_xgb_history,Arthritis,Influenza,21
+direct_xgb_history,Common Cold,Influenza,15
+direct_xgb_history,Dengue,Influenza,16
+direct_xgb_history,Eczema,Influenza,21
+direct_xgb_history,Heart Attack,Influenza,11
+direct_xgb_history,Heat Stroke,Influenza,23
+direct_xgb_history,Influenza,Influenza,81
+direct_xgb_history,Malaria,Influenza,26
+direct_xgb_history,Migraine,Influenza,19
+direct_xgb_history,Sinusitis,Influenza,6
+direct_xgb_history,Stroke,Influenza,18
+direct_xgb_history,Arthritis,Malaria,6
+direct_xgb_history,Common Cold,Malaria,7
+direct_xgb_history,Dengue,Malaria,4
+direct_xgb_history,Eczema,Malaria,6
+direct_xgb_history,Heart Attack,Malaria,6
+direct_xgb_history,Heat Stroke,Malaria,8
+direct_xgb_history,Influenza,Malaria,8
+direct_xgb_history,Malaria,Malaria,6
+direct_xgb_history,Migraine,Malaria,2
+direct_xgb_history,Sinusitis,Malaria,2
+direct_xgb_history,Stroke,Malaria,6
+direct_xgb_history,Arthritis,Migraine,3
+direct_xgb_history,Common Cold,Migraine,6
+direct_xgb_history,Dengue,Migraine,5
+direct_xgb_history,Eczema,Migraine,4
+direct_xgb_history,Heart Attack,Migraine,5
+direct_xgb_history,Heat Stroke,Migraine,5
+direct_xgb_history,Influenza,Migraine,5
+direct_xgb_history,Malaria,Migraine,6
+direct_xgb_history,Migraine,Migraine,122
+direct_xgb_history,Sinusitis,Migraine,6
+direct_xgb_history,Stroke,Migraine,5
+direct_xgb_history,Arthritis,Sinusitis,2
+direct_xgb_history,Common Cold,Sinusitis,0
+direct_xgb_history,Dengue,Sinusitis,0
+direct_xgb_history,Eczema,Sinusitis,2
+direct_xgb_history,Heart Attack,Sinusitis,0
+direct_xgb_history,Heat Stroke,Sinusitis,0
+direct_xgb_history,Influenza,Sinusitis,0
+direct_xgb_history,Malaria,Sinusitis,1
+direct_xgb_history,Migraine,Sinusitis,1
+direct_xgb_history,Sinusitis,Sinusitis,31
+direct_xgb_history,Stroke,Sinusitis,0
+direct_xgb_history,Arthritis,Stroke,5
+direct_xgb_history,Common Cold,Stroke,3
+direct_xgb_history,Dengue,Stroke,9
+direct_xgb_history,Eczema,Stroke,9
+direct_xgb_history,Heart Attack,Stroke,6
+direct_xgb_history,Heat Stroke,Stroke,6
+direct_xgb_history,Influenza,Stroke,5
+direct_xgb_history,Malaria,Stroke,2
+direct_xgb_history,Migraine,Stroke,4
+direct_xgb_history,Sinusitis,Stroke,4
+direct_xgb_history,Stroke,Stroke,3
+cascade_context_xgb_prob_tabnet,Arthritis,Arthritis,0
+cascade_context_xgb_prob_tabnet,Common Cold,Arthritis,0
+cascade_context_xgb_prob_tabnet,Dengue,Arthritis,0
+cascade_context_xgb_prob_tabnet,Eczema,Arthritis,0
+cascade_context_xgb_prob_tabnet,Heart Attack,Arthritis,0
+cascade_context_xgb_prob_tabnet,Heat Stroke,Arthritis,0
+cascade_context_xgb_prob_tabnet,Influenza,Arthritis,0
+cascade_context_xgb_prob_tabnet,Malaria,Arthritis,0
+cascade_context_xgb_prob_tabnet,Migraine,Arthritis,0
+cascade_context_xgb_prob_tabnet,Sinusitis,Arthritis,0
+cascade_context_xgb_prob_tabnet,Stroke,Arthritis,0
+cascade_context_xgb_prob_tabnet,Arthritis,Common Cold,0
+cascade_context_xgb_prob_tabnet,Common Cold,Common Cold,0
+cascade_context_xgb_prob_tabnet,Dengue,Common Cold,0
+cascade_context_xgb_prob_tabnet,Eczema,Common Cold,0
+cascade_context_xgb_prob_tabnet,Heart Attack,Common Cold,0
+cascade_context_xgb_prob_tabnet,Heat Stroke,Common Cold,0
+cascade_context_xgb_prob_tabnet,Influenza,Common Cold,0
+cascade_context_xgb_prob_tabnet,Malaria,Common Cold,0
+cascade_context_xgb_prob_tabnet,Migraine,Common Cold,0
+cascade_context_xgb_prob_tabnet,Sinusitis,Common Cold,0
+cascade_context_xgb_prob_tabnet,Stroke,Common Cold,0
+cascade_context_xgb_prob_tabnet,Arthritis,Dengue,3
+cascade_context_xgb_prob_tabnet,Common Cold,Dengue,1
+cascade_context_xgb_prob_tabnet,Dengue,Dengue,2
+cascade_context_xgb_prob_tabnet,Eczema,Dengue,2
+cascade_context_xgb_prob_tabnet,Heart Attack,Dengue,5
+cascade_context_xgb_prob_tabnet,Heat Stroke,Dengue,3
+cascade_context_xgb_prob_tabnet,Influenza,Dengue,0
+cascade_context_xgb_prob_tabnet,Malaria,Dengue,4
+cascade_context_xgb_prob_tabnet,Migraine,Dengue,78
+cascade_context_xgb_prob_tabnet,Sinusitis,Dengue,9
+cascade_context_xgb_prob_tabnet,Stroke,Dengue,5
+cascade_context_xgb_prob_tabnet,Arthritis,Eczema,0
+cascade_context_xgb_prob_tabnet,Common Cold,Eczema,0
+cascade_context_xgb_prob_tabnet,Dengue,Eczema,0
+cascade_context_xgb_prob_tabnet,Eczema,Eczema,0
+cascade_context_xgb_prob_tabnet,Heart Attack,Eczema,0
+cascade_context_xgb_prob_tabnet,Heat Stroke,Eczema,0
+cascade_context_xgb_prob_tabnet,Influenza,Eczema,0
+cascade_context_xgb_prob_tabnet,Malaria,Eczema,0
+cascade_context_xgb_prob_tabnet,Migraine,Eczema,0
+cascade_context_xgb_prob_tabnet,Sinusitis,Eczema,0
+cascade_context_xgb_prob_tabnet,Stroke,Eczema,0
+cascade_context_xgb_prob_tabnet,Arthritis,Heart Attack,2
+cascade_context_xgb_prob_tabnet,Common Cold,Heart Attack,0
+cascade_context_xgb_prob_tabnet,Dengue,Heart Attack,1
+cascade_context_xgb_prob_tabnet,Eczema,Heart Attack,1
+cascade_context_xgb_prob_tabnet,Heart Attack,Heart Attack,139
+cascade_context_xgb_prob_tabnet,Heat Stroke,Heart Attack,0
+cascade_context_xgb_prob_tabnet,Influenza,Heart Attack,1
+cascade_context_xgb_prob_tabnet,Malaria,Heart Attack,3
+cascade_context_xgb_prob_tabnet,Migraine,Heart Attack,2
+cascade_context_xgb_prob_tabnet,Sinusitis,Heart Attack,1
+cascade_context_xgb_prob_tabnet,Stroke,Heart Attack,2
+cascade_context_xgb_prob_tabnet,Arthritis,Heat Stroke,0
+cascade_context_xgb_prob_tabnet,Common Cold,Heat Stroke,0
+cascade_context_xgb_prob_tabnet,Dengue,Heat Stroke,0
+cascade_context_xgb_prob_tabnet,Eczema,Heat Stroke,0
+cascade_context_xgb_prob_tabnet,Heart Attack,Heat Stroke,0
+cascade_context_xgb_prob_tabnet,Heat Stroke,Heat Stroke,0
+cascade_context_xgb_prob_tabnet,Influenza,Heat Stroke,0
+cascade_context_xgb_prob_tabnet,Malaria,Heat Stroke,0
+cascade_context_xgb_prob_tabnet,Migraine,Heat Stroke,0
+cascade_context_xgb_prob_tabnet,Sinusitis,Heat Stroke,0
+cascade_context_xgb_prob_tabnet,Stroke,Heat Stroke,0
+cascade_context_xgb_prob_tabnet,Arthritis,Influenza,52
+cascade_context_xgb_prob_tabnet,Common Cold,Influenza,59
+cascade_context_xgb_prob_tabnet,Dengue,Influenza,54
+cascade_context_xgb_prob_tabnet,Eczema,Influenza,55
+cascade_context_xgb_prob_tabnet,Heart Attack,Influenza,43
+cascade_context_xgb_prob_tabnet,Heat Stroke,Influenza,55
+cascade_context_xgb_prob_tabnet,Influenza,Influenza,110
+cascade_context_xgb_prob_tabnet,Malaria,Influenza,52
+cascade_context_xgb_prob_tabnet,Migraine,Influenza,93
+cascade_context_xgb_prob_tabnet,Sinusitis,Influenza,24
+cascade_context_xgb_prob_tabnet,Stroke,Influenza,49
+cascade_context_xgb_prob_tabnet,Arthritis,Malaria,0
+cascade_context_xgb_prob_tabnet,Common Cold,Malaria,0
+cascade_context_xgb_prob_tabnet,Dengue,Malaria,0
+cascade_context_xgb_prob_tabnet,Eczema,Malaria,0
+cascade_context_xgb_prob_tabnet,Heart Attack,Malaria,0
+cascade_context_xgb_prob_tabnet,Heat Stroke,Malaria,0
+cascade_context_xgb_prob_tabnet,Influenza,Malaria,0
+cascade_context_xgb_prob_tabnet,Malaria,Malaria,0
+cascade_context_xgb_prob_tabnet,Migraine,Malaria,0
+cascade_context_xgb_prob_tabnet,Sinusitis,Malaria,0
+cascade_context_xgb_prob_tabnet,Stroke,Malaria,0
+cascade_context_xgb_prob_tabnet,Arthritis,Migraine,0
+cascade_context_xgb_prob_tabnet,Common Cold,Migraine,0
+cascade_context_xgb_prob_tabnet,Dengue,Migraine,0
+cascade_context_xgb_prob_tabnet,Eczema,Migraine,0
+cascade_context_xgb_prob_tabnet,Heart Attack,Migraine,0
+cascade_context_xgb_prob_tabnet,Heat Stroke,Migraine,0
+cascade_context_xgb_prob_tabnet,Influenza,Migraine,0
+cascade_context_xgb_prob_tabnet,Malaria,Migraine,0
+cascade_context_xgb_prob_tabnet,Migraine,Migraine,0
+cascade_context_xgb_prob_tabnet,Sinusitis,Migraine,0
+cascade_context_xgb_prob_tabnet,Stroke,Migraine,0
+cascade_context_xgb_prob_tabnet,Arthritis,Sinusitis,0
+cascade_context_xgb_prob_tabnet,Common Cold,Sinusitis,0
+cascade_context_xgb_prob_tabnet,Dengue,Sinusitis,0
+cascade_context_xgb_prob_tabnet,Eczema,Sinusitis,0
+cascade_context_xgb_prob_tabnet,Heart Attack,Sinusitis,0
+cascade_context_xgb_prob_tabnet,Heat Stroke,Sinusitis,0
+cascade_context_xgb_prob_tabnet,Influenza,Sinusitis,0
+cascade_context_xgb_prob_tabnet,Malaria,Sinusitis,0
+cascade_context_xgb_prob_tabnet,Migraine,Sinusitis,0
+cascade_context_xgb_prob_tabnet,Sinusitis,Sinusitis,0
+cascade_context_xgb_prob_tabnet,Stroke,Sinusitis,0
+cascade_context_xgb_prob_tabnet,Arthritis,Stroke,4
+cascade_context_xgb_prob_tabnet,Common Cold,Stroke,2
+cascade_context_xgb_prob_tabnet,Dengue,Stroke,5
+cascade_context_xgb_prob_tabnet,Eczema,Stroke,5
+cascade_context_xgb_prob_tabnet,Heart Attack,Stroke,6
+cascade_context_xgb_prob_tabnet,Heat Stroke,Stroke,7
+cascade_context_xgb_prob_tabnet,Influenza,Stroke,15
+cascade_context_xgb_prob_tabnet,Malaria,Stroke,5
+cascade_context_xgb_prob_tabnet,Migraine,Stroke,6
+cascade_context_xgb_prob_tabnet,Sinusitis,Stroke,26
+cascade_context_xgb_prob_tabnet,Stroke,Stroke,6
+cascade_context_xgb_prob_xgb,Arthritis,Arthritis,7
+cascade_context_xgb_prob_xgb,Common Cold,Arthritis,7
+cascade_context_xgb_prob_xgb,Dengue,Arthritis,4
+cascade_context_xgb_prob_xgb,Eczema,Arthritis,6
+cascade_context_xgb_prob_xgb,Heart Attack,Arthritis,4
+cascade_context_xgb_prob_xgb,Heat Stroke,Arthritis,5
+cascade_context_xgb_prob_xgb,Influenza,Arthritis,6
+cascade_context_xgb_prob_xgb,Malaria,Arthritis,8
+cascade_context_xgb_prob_xgb,Migraine,Arthritis,6
+cascade_context_xgb_prob_xgb,Sinusitis,Arthritis,4
+cascade_context_xgb_prob_xgb,Stroke,Arthritis,2
+cascade_context_xgb_prob_xgb,Arthritis,Common Cold,3
+cascade_context_xgb_prob_xgb,Common Cold,Common Cold,5
+cascade_context_xgb_prob_xgb,Dengue,Common Cold,5
+cascade_context_xgb_prob_xgb,Eczema,Common Cold,9
+cascade_context_xgb_prob_xgb,Heart Attack,Common Cold,8
+cascade_context_xgb_prob_xgb,Heat Stroke,Common Cold,3
+cascade_context_xgb_prob_xgb,Influenza,Common Cold,4
+cascade_context_xgb_prob_xgb,Malaria,Common Cold,5
+cascade_context_xgb_prob_xgb,Migraine,Common Cold,5
+cascade_context_xgb_prob_xgb,Sinusitis,Common Cold,0
+cascade_context_xgb_prob_xgb,Stroke,Common Cold,7
+cascade_context_xgb_prob_xgb,Arthritis,Dengue,1
+cascade_context_xgb_prob_xgb,Common Cold,Dengue,3
+cascade_context_xgb_prob_xgb,Dengue,Dengue,2
+cascade_context_xgb_prob_xgb,Eczema,Dengue,5
+cascade_context_xgb_prob_xgb,Heart Attack,Dengue,2
+cascade_context_xgb_prob_xgb,Heat Stroke,Dengue,3
+cascade_context_xgb_prob_xgb,Influenza,Dengue,2
+cascade_context_xgb_prob_xgb,Malaria,Dengue,2
+cascade_context_xgb_prob_xgb,Migraine,Dengue,2
+cascade_context_xgb_prob_xgb,Sinusitis,Dengue,1
+cascade_context_xgb_prob_xgb,Stroke,Dengue,2
+cascade_context_xgb_prob_xgb,Arthritis,Eczema,2
+cascade_context_xgb_prob_xgb,Common Cold,Eczema,1
+cascade_context_xgb_prob_xgb,Dengue,Eczema,4
+cascade_context_xgb_prob_xgb,Eczema,Eczema,1
+cascade_context_xgb_prob_xgb,Heart Attack,Eczema,7
+cascade_context_xgb_prob_xgb,Heat Stroke,Eczema,1
+cascade_context_xgb_prob_xgb,Influenza,Eczema,8
+cascade_context_xgb_prob_xgb,Malaria,Eczema,2
+cascade_context_xgb_prob_xgb,Migraine,Eczema,8
+cascade_context_xgb_prob_xgb,Sinusitis,Eczema,3
+cascade_context_xgb_prob_xgb,Stroke,Eczema,6
+cascade_context_xgb_prob_xgb,Arthritis,Heart Attack,2
+cascade_context_xgb_prob_xgb,Common Cold,Heart Attack,11
+cascade_context_xgb_prob_xgb,Dengue,Heart Attack,4
+cascade_context_xgb_prob_xgb,Eczema,Heart Attack,1
+cascade_context_xgb_prob_xgb,Heart Attack,Heart Attack,144
+cascade_context_xgb_prob_xgb,Heat Stroke,Heart Attack,3
+cascade_context_xgb_prob_xgb,Influenza,Heart Attack,5
+cascade_context_xgb_prob_xgb,Malaria,Heart Attack,5
+cascade_context_xgb_prob_xgb,Migraine,Heart Attack,6
+cascade_context_xgb_prob_xgb,Sinusitis,Heart Attack,1
+cascade_context_xgb_prob_xgb,Stroke,Heart Attack,7
+cascade_context_xgb_prob_xgb,Arthritis,Heat Stroke,5
+cascade_context_xgb_prob_xgb,Common Cold,Heat Stroke,10
+cascade_context_xgb_prob_xgb,Dengue,Heat Stroke,3
+cascade_context_xgb_prob_xgb,Eczema,Heat Stroke,3
+cascade_context_xgb_prob_xgb,Heart Attack,Heat Stroke,4
+cascade_context_xgb_prob_xgb,Heat Stroke,Heat Stroke,5
+cascade_context_xgb_prob_xgb,Influenza,Heat Stroke,9
+cascade_context_xgb_prob_xgb,Malaria,Heat Stroke,4
+cascade_context_xgb_prob_xgb,Migraine,Heat Stroke,5
+cascade_context_xgb_prob_xgb,Sinusitis,Heat Stroke,2
+cascade_context_xgb_prob_xgb,Stroke,Heat Stroke,3
+cascade_context_xgb_prob_xgb,Arthritis,Influenza,31
+cascade_context_xgb_prob_xgb,Common Cold,Influenza,15
+cascade_context_xgb_prob_xgb,Dengue,Influenza,22
+cascade_context_xgb_prob_xgb,Eczema,Influenza,27
+cascade_context_xgb_prob_xgb,Heart Attack,Influenza,17
+cascade_context_xgb_prob_xgb,Heat Stroke,Influenza,31
+cascade_context_xgb_prob_xgb,Influenza,Influenza,74
+cascade_context_xgb_prob_xgb,Malaria,Influenza,25
+cascade_context_xgb_prob_xgb,Migraine,Influenza,14
+cascade_context_xgb_prob_xgb,Sinusitis,Influenza,9
+cascade_context_xgb_prob_xgb,Stroke,Influenza,23
+cascade_context_xgb_prob_xgb,Arthritis,Malaria,4
+cascade_context_xgb_prob_xgb,Common Cold,Malaria,4
+cascade_context_xgb_prob_xgb,Dengue,Malaria,9
+cascade_context_xgb_prob_xgb,Eczema,Malaria,2
+cascade_context_xgb_prob_xgb,Heart Attack,Malaria,5
+cascade_context_xgb_prob_xgb,Heat Stroke,Malaria,7
+cascade_context_xgb_prob_xgb,Influenza,Malaria,3
+cascade_context_xgb_prob_xgb,Malaria,Malaria,2
+cascade_context_xgb_prob_xgb,Migraine,Malaria,7
+cascade_context_xgb_prob_xgb,Sinusitis,Malaria,5
+cascade_context_xgb_prob_xgb,Stroke,Malaria,5
+cascade_context_xgb_prob_xgb,Arthritis,Migraine,2
+cascade_context_xgb_prob_xgb,Common Cold,Migraine,3
+cascade_context_xgb_prob_xgb,Dengue,Migraine,7
+cascade_context_xgb_prob_xgb,Eczema,Migraine,2
+cascade_context_xgb_prob_xgb,Heart Attack,Migraine,1
+cascade_context_xgb_prob_xgb,Heat Stroke,Migraine,5
+cascade_context_xgb_prob_xgb,Influenza,Migraine,8
+cascade_context_xgb_prob_xgb,Malaria,Migraine,6
+cascade_context_xgb_prob_xgb,Migraine,Migraine,121
+cascade_context_xgb_prob_xgb,Sinusitis,Migraine,5
+cascade_context_xgb_prob_xgb,Stroke,Migraine,3
+cascade_context_xgb_prob_xgb,Arthritis,Sinusitis,0
+cascade_context_xgb_prob_xgb,Common Cold,Sinusitis,0
+cascade_context_xgb_prob_xgb,Dengue,Sinusitis,0
+cascade_context_xgb_prob_xgb,Eczema,Sinusitis,0
+cascade_context_xgb_prob_xgb,Heart Attack,Sinusitis,0
+cascade_context_xgb_prob_xgb,Heat Stroke,Sinusitis,0
+cascade_context_xgb_prob_xgb,Influenza,Sinusitis,0
+cascade_context_xgb_prob_xgb,Malaria,Sinusitis,0
+cascade_context_xgb_prob_xgb,Migraine,Sinusitis,1
+cascade_context_xgb_prob_xgb,Sinusitis,Sinusitis,30
+cascade_context_xgb_prob_xgb,Stroke,Sinusitis,0
+cascade_context_xgb_prob_xgb,Arthritis,Stroke,4
+cascade_context_xgb_prob_xgb,Common Cold,Stroke,3
+cascade_context_xgb_prob_xgb,Dengue,Stroke,2
+cascade_context_xgb_prob_xgb,Eczema,Stroke,7
+cascade_context_xgb_prob_xgb,Heart Attack,Stroke,1
+cascade_context_xgb_prob_xgb,Heat Stroke,Stroke,2
+cascade_context_xgb_prob_xgb,Influenza,Stroke,7
+cascade_context_xgb_prob_xgb,Malaria,Stroke,5
+cascade_context_xgb_prob_xgb,Migraine,Stroke,4
+cascade_context_xgb_prob_xgb,Sinusitis,Stroke,0
+cascade_context_xgb_prob_xgb,Stroke,Stroke,4
+skip_context_symptom_xgb,Arthritis,Arthritis,4
+skip_context_symptom_xgb,Common Cold,Arthritis,10
+skip_context_symptom_xgb,Dengue,Arthritis,1
+skip_context_symptom_xgb,Eczema,Arthritis,6
+skip_context_symptom_xgb,Heart Attack,Arthritis,6
+skip_context_symptom_xgb,Heat Stroke,Arthritis,5
+skip_context_symptom_xgb,Influenza,Arthritis,7
+skip_context_symptom_xgb,Malaria,Arthritis,6
+skip_context_symptom_xgb,Migraine,Arthritis,4
+skip_context_symptom_xgb,Sinusitis,Arthritis,4
+skip_context_symptom_xgb,Stroke,Arthritis,1
+skip_context_symptom_xgb,Arthritis,Common Cold,3
+skip_context_symptom_xgb,Common Cold,Common Cold,6
+skip_context_symptom_xgb,Dengue,Common Cold,5
+skip_context_symptom_xgb,Eczema,Common Cold,3
+skip_context_symptom_xgb,Heart Attack,Common Cold,7
+skip_context_symptom_xgb,Heat Stroke,Common Cold,2
+skip_context_symptom_xgb,Influenza,Common Cold,2
+skip_context_symptom_xgb,Malaria,Common Cold,3
+skip_context_symptom_xgb,Migraine,Common Cold,7
+skip_context_symptom_xgb,Sinusitis,Common Cold,0
+skip_context_symptom_xgb,Stroke,Common Cold,7
+skip_context_symptom_xgb,Arthritis,Dengue,1
+skip_context_symptom_xgb,Common Cold,Dengue,3
+skip_context_symptom_xgb,Dengue,Dengue,5
+skip_context_symptom_xgb,Eczema,Dengue,3
+skip_context_symptom_xgb,Heart Attack,Dengue,2
+skip_context_symptom_xgb,Heat Stroke,Dengue,3
+skip_context_symptom_xgb,Influenza,Dengue,1
+skip_context_symptom_xgb,Malaria,Dengue,3
+skip_context_symptom_xgb,Migraine,Dengue,1
+skip_context_symptom_xgb,Sinusitis,Dengue,1
+skip_context_symptom_xgb,Stroke,Dengue,2
+skip_context_symptom_xgb,Arthritis,Eczema,1
+skip_context_symptom_xgb,Common Cold,Eczema,2
+skip_context_symptom_xgb,Dengue,Eczema,4
+skip_context_symptom_xgb,Eczema,Eczema,2
+skip_context_symptom_xgb,Heart Attack,Eczema,5
+skip_context_symptom_xgb,Heat Stroke,Eczema,3
+skip_context_symptom_xgb,Influenza,Eczema,7
+skip_context_symptom_xgb,Malaria,Eczema,2
+skip_context_symptom_xgb,Migraine,Eczema,10
+skip_context_symptom_xgb,Sinusitis,Eczema,4
+skip_context_symptom_xgb,Stroke,Eczema,4
+skip_context_symptom_xgb,Arthritis,Heart Attack,2
+skip_context_symptom_xgb,Common Cold,Heart Attack,9
+skip_context_symptom_xgb,Dengue,Heart Attack,4
+skip_context_symptom_xgb,Eczema,Heart Attack,6
+skip_context_symptom_xgb,Heart Attack,Heart Attack,144
+skip_context_symptom_xgb,Heat Stroke,Heart Attack,3
+skip_context_symptom_xgb,Influenza,Heart Attack,5
+skip_context_symptom_xgb,Malaria,Heart Attack,6
+skip_context_symptom_xgb,Migraine,Heart Attack,4
+skip_context_symptom_xgb,Sinusitis,Heart Attack,1
+skip_context_symptom_xgb,Stroke,Heart Attack,6
+skip_context_symptom_xgb,Arthritis,Heat Stroke,6
+skip_context_symptom_xgb,Common Cold,Heat Stroke,8
+skip_context_symptom_xgb,Dengue,Heat Stroke,2
+skip_context_symptom_xgb,Eczema,Heat Stroke,3
+skip_context_symptom_xgb,Heart Attack,Heat Stroke,4
+skip_context_symptom_xgb,Heat Stroke,Heat Stroke,3
+skip_context_symptom_xgb,Influenza,Heat Stroke,11
+skip_context_symptom_xgb,Malaria,Heat Stroke,5
+skip_context_symptom_xgb,Migraine,Heat Stroke,5
+skip_context_symptom_xgb,Sinusitis,Heat Stroke,1
+skip_context_symptom_xgb,Stroke,Heat Stroke,4
+skip_context_symptom_xgb,Arthritis,Influenza,28
+skip_context_symptom_xgb,Common Cold,Influenza,15
+skip_context_symptom_xgb,Dengue,Influenza,20
+skip_context_symptom_xgb,Eczema,Influenza,26
+skip_context_symptom_xgb,Heart Attack,Influenza,15
+skip_context_symptom_xgb,Heat Stroke,Influenza,34
+skip_context_symptom_xgb,Influenza,Influenza,75
+skip_context_symptom_xgb,Malaria,Influenza,25
+skip_context_symptom_xgb,Migraine,Influenza,16
+skip_context_symptom_xgb,Sinusitis,Influenza,8
+skip_context_symptom_xgb,Stroke,Influenza,22
+skip_context_symptom_xgb,Arthritis,Malaria,7
+skip_context_symptom_xgb,Common Cold,Malaria,2
+skip_context_symptom_xgb,Dengue,Malaria,8
+skip_context_symptom_xgb,Eczema,Malaria,2
+skip_context_symptom_xgb,Heart Attack,Malaria,5
+skip_context_symptom_xgb,Heat Stroke,Malaria,3
+skip_context_symptom_xgb,Influenza,Malaria,3
+skip_context_symptom_xgb,Malaria,Malaria,2
+skip_context_symptom_xgb,Migraine,Malaria,4
+skip_context_symptom_xgb,Sinusitis,Malaria,6
+skip_context_symptom_xgb,Stroke,Malaria,5
+skip_context_symptom_xgb,Arthritis,Migraine,3
+skip_context_symptom_xgb,Common Cold,Migraine,3
+skip_context_symptom_xgb,Dengue,Migraine,8
+skip_context_symptom_xgb,Eczema,Migraine,5
+skip_context_symptom_xgb,Heart Attack,Migraine,3
+skip_context_symptom_xgb,Heat Stroke,Migraine,6
+skip_context_symptom_xgb,Influenza,Migraine,8
+skip_context_symptom_xgb,Malaria,Migraine,7
+skip_context_symptom_xgb,Migraine,Migraine,123
+skip_context_symptom_xgb,Sinusitis,Migraine,5
+skip_context_symptom_xgb,Stroke,Migraine,4
+skip_context_symptom_xgb,Arthritis,Sinusitis,0
+skip_context_symptom_xgb,Common Cold,Sinusitis,0
+skip_context_symptom_xgb,Dengue,Sinusitis,0
+skip_context_symptom_xgb,Eczema,Sinusitis,0
+skip_context_symptom_xgb,Heart Attack,Sinusitis,0
+skip_context_symptom_xgb,Heat Stroke,Sinusitis,0
+skip_context_symptom_xgb,Influenza,Sinusitis,1
+skip_context_symptom_xgb,Malaria,Sinusitis,0
+skip_context_symptom_xgb,Migraine,Sinusitis,0
+skip_context_symptom_xgb,Sinusitis,Sinusitis,30
+skip_context_symptom_xgb,Stroke,Sinusitis,0
+skip_context_symptom_xgb,Arthritis,Stroke,6
+skip_context_symptom_xgb,Common Cold,Stroke,4
+skip_context_symptom_xgb,Dengue,Stroke,5
+skip_context_symptom_xgb,Eczema,Stroke,7
+skip_context_symptom_xgb,Heart Attack,Stroke,2
+skip_context_symptom_xgb,Heat Stroke,Stroke,3
+skip_context_symptom_xgb,Influenza,Stroke,6
+skip_context_symptom_xgb,Malaria,Stroke,5
+skip_context_symptom_xgb,Migraine,Stroke,5
+skip_context_symptom_xgb,Sinusitis,Stroke,0
+skip_context_symptom_xgb,Stroke,Stroke,7

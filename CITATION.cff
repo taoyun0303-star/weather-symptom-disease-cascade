@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the accompanying paper and the source dataset."
+type: software
+title: "Weather--Symptom--Disease Cascade: Leakage-Resistant Audit"
+version: 2.0.0
+date-released: 2026-07-24
+authors:
+  - family-names: Tao
+    given-names: Yun
+    affiliation: Beijing Normal--Hong Kong Baptist University
+  - family-names: Liu
+    given-names: Sijie
+    affiliation: Beijing Normal--Hong Kong Baptist University
+  - family-names: Yi
+    given-names: Junhan
+    affiliation: Beijing Normal--Hong Kong Baptist University
+  - family-names: Jin
+    given-names: Yumeng
+    affiliation: Beijing Normal--Hong Kong Baptist University
+  - family-names: Pang
+    given-names: Yinuo
+    affiliation: Beijing Normal--Hong Kong Baptist University
+keywords:
+  - semantic bottleneck
+  - error propagation
+  - weather and health
+  - multilabel classification
+  - reproducibility
+references:
+  - type: dataset
+    title: "Weather-related Disease Prediction Dataset"
+    authors:
+      - family-names: Shan
+        given-names: Ali
+      - family-names: Amir
+        given-names: Iqra
+      - family-names: Kamal
+        given-names: Mustafa
+    doi: 10.5281/zenodo.11366485
+    date-released: 2024-05-28
