@@ -100,6 +100,14 @@ externally validated cohort; the required protocol is in
 
 - [Citation metadata](CITATION.cff)
 
+## Research-status records
+
+- [Research fact sheet](RESEARCH_FACT_SHEET.md)
+- [Weather-case data audit](DATA_AUDIT.md)
+- [Weather-case robustness results](results/robustness/RESULTS.md)
+- [Controlled second-validation design](SECOND_VALIDATION_DESIGN.md)
+- [Controlled second-validation results](results/synthetic/RESULTS.md)
+
 If you use the code or findings, cite this project and the source dataset. The
 source code is released under the [MIT License](LICENSE); the source dataset is
 not redistributed and remains available under its own CC BY 4.0 license.
