@@ -5,7 +5,7 @@ Explain what changed and why.
 ## Research impact
 
 - [ ] No change to the experimental protocol or reported findings
-- [ ] Results, figures, manuscript, or release manifest were regenerated
+- [ ] Results, figures, or release manifest were regenerated
 - [ ] New scientific claim is supported by documented evidence
 
 ## Validation

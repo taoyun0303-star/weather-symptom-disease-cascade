@@ -1,12 +1,12 @@
 {
-  "created_at_utc": "2026-07-24T05:25:14.532712+00:00",
-  "purpose": "Integrity inventory for publication revision 2.0.",
+  "created_at_utc": "2026-07-24T07:03:55.608884+00:00",
+  "purpose": "Integrity inventory for the public project release.",
   "dataset": {
     "doi": "10.5281/zenodo.11366485",
     "expected_md5": "4aa51b2bb76b45b2000ce71517a0fd1e",
     "distribution": "Fetched from Zenodo; not included in this repository release."
   },
-  "file_count": 60,
+  "file_count": 56,
   "files": [
     {
       "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
@@ -15,8 +15,8 @@
     },
     {
       "path": ".github/PULL_REQUEST_TEMPLATE.md",
-      "bytes": 536,
-      "sha256": "7ab9b7435b6a936e17a5fc6d37fa1510d9bf08b029019e69a27ec9299909c457"
+      "bytes": 524,
+      "sha256": "56f3f71beb086b50e00875c08cdc591c1756885a7922009b6c1fe914ac90b816"
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -25,13 +25,13 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 799,
-      "sha256": "cb5b763f9ac35ac08d448f5b4b3d121f3fc4481bd79c8808fdfe61a16b0baa27"
+      "bytes": 790,
+      "sha256": "449a1395df50d78fbf033c2aa0a2847dcf7027938076e3fd0d2a3f913c7d9eaa"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1251,
-      "sha256": "b0dbfbf5011755c16b6331b3b992aa7ae8532c0d91f196730ee78e1efb3b1f4a"
+      "bytes": 1244,
+      "sha256": "d6bd4e5fc6ce329dd89b0dadca5a9ddc8720d57c8bf85212f20c42c7237513ed"
     },
     {
       "path": "configs/publication.yaml",
@@ -40,8 +40,8 @@
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 1264,
-      "sha256": "1a6c191208eb93fc727f913ef1d2f8320e7870ef4dcaadc4d2650cfe327e4345"
+      "bytes": 1275,
+      "sha256": "b16e4f211b41951248846926a1469aa7b5319b58b918eec0e135a913698baccd"
     },
     {
       "path": "DATASET.md",
@@ -50,8 +50,8 @@
     },
     {
       "path": "EXPERIMENT_PROTOCOL.md",
-      "bytes": 3788,
-      "sha256": "b0c13ac4c09895437aab22dd1bffdf50dd90e797ff6882786db5f296d1f179d2"
+      "bytes": 3804,
+      "sha256": "6194cc8ef9e79c7065b43baac731b088533a67c0acd5f98dc578029e54061f1c"
     },
     {
       "path": "EXTERNAL_VALIDATION_PROTOCOL.md",
@@ -124,29 +124,14 @@
       "sha256": "3238c2edbe891bd8bf69d15a04f70c7975ebc7020c1ec17c6e02e338e14b4808"
     },
     {
-      "path": "paper/manuscript.pdf",
-      "bytes": 321988,
-      "sha256": "397003b2ca7f0355315dcfaa290ebb9d08d0f4ca49b9f759a195dbaeb2df83df"
-    },
-    {
-      "path": "paper/manuscript.tex",
-      "bytes": 27150,
-      "sha256": "56d53e5a199c230fd84b8833654bd513c671b570965df373c8df90dc0494c82b"
-    },
-    {
       "path": "pyproject.toml",
       "bytes": 837,
       "sha256": "7e004a95cd080a3b4dc6e6d754a647c94aae578886cd78eb54970d84fbe75703"
     },
     {
       "path": "README.md",
-      "bytes": 5119,
-      "sha256": "a3ddbb017da80344e2a4269516ddea799d234ff70acd29821926a186770e653d"
-    },
-    {
-      "path": "references.bib",
-      "bytes": 3252,
-      "sha256": "c872cc5212c828f92c01c17976449e9e7f3f1030053f3e49335a1ba4bc8f2912"
+      "bytes": 4886,
+      "sha256": "e5570c76a7181d8da3cd6a4f9e57c28c38ecbf3d0be2f36e4e640ab89cadb652"
     },
     {
       "path": "requirements.txt",
@@ -210,8 +195,8 @@
     },
     {
       "path": "scripts/build_release_manifest.py",
-      "bytes": 2908,
-      "sha256": "ed4b4065d8eec341b51b8974079c4bf95d49dee32c4591b954765b6c996f1087"
+      "bytes": 2801,
+      "sha256": "c6b7d75b51283634555f2df5a1c1300464ad57a2de38e6fe4c17a21bb1c3ad1e"
     },
     {
       "path": "scripts/compute_publication_importance.py",
@@ -279,11 +264,6 @@
       "sha256": "c2c8560988fdf9d246d98fc65681851086b3441b3ad5cc5aaf4f187e076c0dc0"
     },
     {
-      "path": "SUBMISSION_CHECKLIST.md",
-      "bytes": 4003,
-      "sha256": "c6c8b14e314b611adb6facb40d6fb6ac6b539f85129ee3c32d935e87b8866fac"
-    },
-    {
       "path": "tests/conftest.py",
       "bytes": 228,
       "sha256": "7ee1a1e04cbad678e8e6fd2d42b80f180116fa4bdc3560ba794bf517a827a457"
@@ -295,8 +275,8 @@
     },
     {
       "path": "tests/test_report_consistency.py",
-      "bytes": 1211,
-      "sha256": "2b62ab6ffc63248a3a7754edff88462c2c444ccfa339c1fd0569dcb1fd8d2f59"
+      "bytes": 1220,
+      "sha256": "1fd6511f824d5b82dd067296bae1ce5892ab148d4bfe2702a31be18135069d72"
     },
     {
       "path": "tests/test_split_protocol.py",
@@ -305,8 +285,8 @@
     },
     {
       "path": "VALIDATION_REPORT.md",
-      "bytes": 2566,
-      "sha256": "f1499d8d9d2ff0b958a1f30dfa2865c183a31824f74aa51ee540aa0e34e762d1"
+      "bytes": 2568,
+      "sha256": "aad269959de21a1cb9450e65a74813f0058a5cf74837c78c56d54de628e8f40e"
     }
   ]
 }

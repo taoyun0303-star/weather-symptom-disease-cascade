@@ -43,7 +43,6 @@ configs/publication.yaml  Versioned experiment configuration
 tests/                    Leakage, data-contract, and report-consistency tests
 results/publication/      Versioned tables, metrics, and release manifest
 figures/publication/      Publication figures generated from the result tables
-output/pdf/               Visually checked Chinese and English revised papers
 ```
 
 Legacy coursework files are intentionally excluded from the public release.
@@ -68,7 +67,7 @@ py -3.12 -m venv .venv
 checks its published MD5 before making it available to the pipeline. The CSV is
 not committed to this repository by default.
 
-## Reproduce the publication workflow
+## Reproduce the project workflow
 
 Run these commands from the repository root after completing the quick start:
 
@@ -97,9 +96,8 @@ early-warning claim requires an independently collected, temporally ordered,
 externally validated cohort; the required protocol is in
 [EXTERNAL_VALIDATION_PROTOCOL.md](EXTERNAL_VALIDATION_PROTOCOL.md).
 
-## Papers and citation
+## Citation
 
-- [English revised manuscript](paper/manuscript.pdf)
 - [Citation metadata](CITATION.cff)
 
 If you use the code or findings, cite this project and the source dataset. The
@@ -110,5 +108,4 @@ not redistributed and remains available under its own CC BY 4.0 license.
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing changes. Every change
 to the experimental protocol, reported numbers, or scientific claims must be
-accompanied by tests and regenerated evidence. The final pre-release checklist
-is [SUBMISSION_CHECKLIST.md](SUBMISSION_CHECKLIST.md).
+accompanied by tests and regenerated evidence.

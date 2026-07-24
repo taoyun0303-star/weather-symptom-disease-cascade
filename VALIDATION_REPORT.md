@@ -3,7 +3,7 @@
 ## Overall assessment: needs external validation before clinical claims
 
 The revised internal analysis is methodologically suitable for a
-proof-of-concept or model-audit paper. It is not sufficient for a clinical
+proof-of-concept or model-audit project. It is not sufficient for a clinical
 prediction claim because the source file does not expose patient identifiers,
 timestamps, locations, institutions, or an external cohort.
 

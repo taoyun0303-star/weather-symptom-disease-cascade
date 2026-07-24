@@ -21,8 +21,6 @@ data/processed/
 !/data/
 !/figures/
 !/figures/**
-!/paper/
-!/paper/**
 !/results/
 !/results/**
 !/scripts/
@@ -43,7 +41,7 @@ data/processed/
 /*.docx
 /*.zip
 
-# LaTeX build products
+# Legacy document build products.
 *.aux
 *.bbl
 *.blg

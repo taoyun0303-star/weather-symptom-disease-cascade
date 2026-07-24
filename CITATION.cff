@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software or its results, please cite the accompanying paper and the source dataset."
+message: "If you use this software or its results, please cite this repository and the source dataset."
 type: software
 title: "Weather--Symptom--Disease Cascade: Leakage-Resistant Audit"
 version: 2.0.0

@@ -13,7 +13,7 @@ independent, appropriately governed external validation.
 1. Use Python 3.12 and install dependencies from `requirements.txt`.
 2. Retrieve the canonical dataset with `python scripts/fetch_dataset.py`.
 3. Keep all experimental choices in `configs/publication.yaml`; do not hardcode
-   reported metrics in figures or manuscripts.
+   reported metrics in result tables or plotting scripts.
 4. Run `python -m pytest -q` before opening a pull request.
 5. Regenerate affected result tables, figures, and the release manifest when a
    change affects data processing, model behavior, or reported outcomes.

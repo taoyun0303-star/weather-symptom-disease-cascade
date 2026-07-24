@@ -99,5 +99,5 @@ an equivalence claim.
 
 Higher performance is not an acceptance criterion. The acceptance criterion is
 a reproducible, leakage-free estimate with uncertainty. If direct baselines
-outperform the cascade, the paper must present the cascade as an
+outperform the cascade, the project documentation must present the cascade as an
 interpretability-performance trade-off rather than claiming superiority.

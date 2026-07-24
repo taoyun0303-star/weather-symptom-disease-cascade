@@ -26,14 +26,10 @@ INCLUDED_FILES = (
     "EXTERNAL_VALIDATION_PROTOCOL.md",
     "README.md",
     "SECURITY.md",
-    "SUBMISSION_CHECKLIST.md",
     "VALIDATION_REPORT.md",
-    "references.bib",
     "requirements.txt",
     "pyproject.toml",
     "LICENSE",
-    "paper/manuscript.tex",
-    "paper/manuscript.pdf",
 )
 EXCLUDED_PARTS = {
     "__pycache__",
@@ -89,7 +85,7 @@ def main() -> None:
         )
     payload = {
         "created_at_utc": datetime.now(timezone.utc).isoformat(),
-        "purpose": "Integrity inventory for publication revision 2.0.",
+        "purpose": "Integrity inventory for the public project release.",
         "dataset": {
             "doi": "10.5281/zenodo.11366485",
             "expected_md5": "4aa51b2bb76b45b2000ce71517a0fd1e",
