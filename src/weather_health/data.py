@@ -180,6 +180,7 @@ def make_publication_split(
     df: pd.DataFrame,
     seed: int = 2026,
     n_splits: int = 5,
+    outer_fold: int = 0,
 ) -> PublicationSplit:
     y = df[TARGET_COL].to_numpy()
     groups = weather_signature(df)
@@ -188,9 +189,12 @@ def make_publication_split(
     outer = StratifiedGroupKFold(
         n_splits=n_splits, shuffle=True, random_state=seed
     )
-    development_indices, test_indices = next(
-        outer.split(all_indices, y, groups=groups)
-    )
+    outer_folds = list(outer.split(all_indices, y, groups=groups))
+    if not 0 <= outer_fold < len(outer_folds):
+        raise ValueError(
+            f"outer_fold must be in [0, {len(outer_folds) - 1}], got {outer_fold}."
+        )
+    development_indices, test_indices = outer_folds[outer_fold]
 
     dev_y = y[development_indices]
     dev_groups = groups[development_indices]
