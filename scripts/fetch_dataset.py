@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import os
 import shutil
 import tempfile
 from pathlib import Path
@@ -46,22 +47,27 @@ def download_dataset(url: str, output: Path, expected_md5: str, force: bool) -> 
             )
 
     request = Request(url, headers={"User-Agent": "weather-health-research/2.0"})
-    with tempfile.NamedTemporaryFile(
-        mode="wb", delete=False, dir=output.parent, suffix=".download"
-    ) as temporary:
-        temporary_path = Path(temporary.name)
-        try:
+    temporary_path: Path | None = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="wb", delete=False, dir=output.parent, suffix=".download"
+        ) as temporary:
+            temporary_path = Path(temporary.name)
             with urlopen(request, timeout=60) as response:
                 shutil.copyfileobj(response, temporary, length=CHUNK_SIZE)
+            temporary.flush()
+            os.fsync(temporary.fileno())
             observed_md5 = md5sum(temporary_path)
             if observed_md5 != expected_md5:
                 raise RuntimeError(
                     f"Downloaded file has MD5 {observed_md5}, expected {expected_md5}."
                 )
-            temporary_path.replace(output)
-        except Exception:
+        # NamedTemporaryFile must be closed before os.replace on Windows.
+        temporary_path.replace(output)
+    except Exception:
+        if temporary_path is not None:
             temporary_path.unlink(missing_ok=True)
-            raise
+        raise
     print(f"Downloaded and verified dataset: {output}")
 
 

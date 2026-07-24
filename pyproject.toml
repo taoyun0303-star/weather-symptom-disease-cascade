@@ -8,7 +8,7 @@ version = "2.0.0"
 description = "Leakage-resistant audit of a weather-symptom-disease cascade."
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
-authors = [{ name = "Weather--Symptom--Disease Cascade authors" }]
+authors = [{ name = "Yun Tao" }]
 keywords = [
   "calibration",
   "error-propagation",

@@ -8,18 +8,6 @@ authors:
   - family-names: Tao
     given-names: Yun
     affiliation: Beijing Normal--Hong Kong Baptist University
-  - family-names: Liu
-    given-names: Sijie
-    affiliation: Beijing Normal--Hong Kong Baptist University
-  - family-names: Yi
-    given-names: Junhan
-    affiliation: Beijing Normal--Hong Kong Baptist University
-  - family-names: Jin
-    given-names: Yumeng
-    affiliation: Beijing Normal--Hong Kong Baptist University
-  - family-names: Pang
-    given-names: Yinuo
-    affiliation: Beijing Normal--Hong Kong Baptist University
 keywords:
   - semantic bottleneck
   - error propagation

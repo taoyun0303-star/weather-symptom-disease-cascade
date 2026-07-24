@@ -1,0 +1,32 @@
+project:
+  name: weather-symptom-disease-cascade
+  protocol_version: "2.1-robustness"
+
+data:
+  raw_csv: data/raw/Weather-related disease prediction.csv
+  expected_md5: 4aa51b2bb76b45b2000ce71517a0fd1e
+  remove_exact_duplicates: true
+
+split:
+  development_folds: 5
+  bootstrap_replicates: 2000
+  bootstrap_seed: 2407
+
+models:
+  n_jobs: 1
+  tabnet:
+    max_epochs: 60
+    patience: 8
+    batch_size: 512
+    virtual_batch_size: 128
+    n_d: 16
+    n_a: 16
+    n_steps: 3
+
+robustness:
+  primary_seed: 2026
+  sensitivity_seeds: [2027, 2028, 2029]
+
+outputs:
+  artifact_dir: artifacts/robustness
+  result_dir: results/robustness
